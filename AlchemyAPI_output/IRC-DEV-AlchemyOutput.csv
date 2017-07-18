@@ -1,0 +1,1072 @@
+subforum,date,sentiment_class,sentiment_score,summary,mturklabel_avg,mturklabel_mv
+irc-dev,2015-06-17 15:31:00,0,-0.423305,I think avoiding it would help simplify the code,1,0
+irc-dev,2015-03-10 13:58:00,1,0.620302,"tested non-rebase version last night, was happy with the basics",1,0
+irc-dev,2015-12-20 18:25:00,0,-0.304785,"if the path still comes from the randomizer, but its length is per-commitment",1,0
+irc-dev,2015-05-08 19:46:00,0,-0.482651,"travis sadness: https://travis-ci.org/bitcoin/bitcoin/jobs/61800593. also eg here: https://travis-ci.org/bitcoin/bitcoin/jobs/61759720. anyone have any thoughts? from staring at code, it looks to me most likely to be a bug (race condition?) in the java test itself, but i need better debugging tools for this...",0,0
+irc-dev,2015-12-14 19:58:00,1,0.466698,see_not: yes,1,0
+irc-dev,2015-12-21 20:01:00,1,0.833775,jgarzik: the effective block size and scale and scalability is what matters to users.,1,0
+irc-dev,2015-04-01 10:10:00,0,-0.639452,"uh, no, I mean I cannot retrieve that commit from your repository",0,0
+irc-dev,2015-01-19 18:12:00,0,-0.895985,hearn: I don't like basing systems of security and privacy on the assumption that nodes will behave and look the other way. in the scheme of things returning results for unfilled filters is fairly inert.,0,0
+irc-dev,2015-04-28 21:07:00,0,-0.585394,"sipa, ok yeah adjusting that to 4 triggered io limits",1,0
+irc-dev,2015-07-21 12:54:00,0,-0.911255,"moa: but implementing unnecessary things will just burden the code, make it harder to test, etc",0,0
+irc-dev,2015-02-08 22:38:00,0,-0.301101,phiz_: so the question is why doesn't importprivkkey reset the birthfday,0,0
+irc-dev,2015-08-11 05:55:00,0,-0.449318,oh i see it's just not the default,0,0
+irc-dev,2015-04-06 00:55:00,0,-0.534593,this is on a 1gbps lan so it's no where near saturation,0,0
+irc-dev,2015-06-21 17:36:00,1,0.617671,and the keys should be easy to backup,1,1
+irc-dev,2015-06-24 09:00:00,0,-0.630815,"Then when a confirmation arrives for whichever one it becomes the only transaction displayed, with some record of what happened if the user wants to drill down",1,0
+irc-dev,2015-02-21 21:57:00,0,-0.568442,"ThomasV: ahh, i didn't think that for bitcoin addresses.",0,0
+irc-dev,2015-01-04 17:04:00,0,-0.401908,"enkwire: you can use gettxoutsetinfo for querying the total number of unspent outputs, and total number of transactions with at least one unspent output",1,0
+irc-dev,2015-06-23 09:21:00,1,0.702724,it's going very well,1,1
+irc-dev,2015-11-12 19:40:00,0,-0.347584,but some opposed it,0,0
+irc-dev,2015-05-13 01:05:00,0,-0.36254,"I feel like it is possible, but I need to dig into the protocol it seems",1,1
+irc-dev,2015-12-07 10:01:00,0,-0.806087,"Yea, I assume something is busted around absurdly-high-fee.",0,0
+irc-dev,2015-01-27 12:10:00,0,-0.940211,"(in the worst case you'd end up with unreadable macaroni enterprise code, or a completely general program that does nothing :-)",0,0
+irc-dev,2015-11-05 19:34:00,0,-0.824989,"as I said, for most transaction it will have little to no effect.",0,0
+irc-dev,2015-01-20 20:50:00,0,-0.692781,"wumpus: the only thing i've considered is maybe backporting some of the big (trivial) refactors, to keep backport conflicts lower in the future",1,0
+irc-dev,2015-01-03 21:35:00,0,-0.51707,getblockchaininfo says I have all the headers,1,0
+irc-dev,2015-07-02 14:39:00,1,0.745291,"ok, so if it looks good, now try 'host rbf-seed.tbtc.petertodd.org'",1,1
+irc-dev,2015-01-21 22:58:00,0,-0.459287,but it's going to conflict with your work a good bit obviously,0,0
+irc-dev,2015-01-16 22:43:00,0,-0.760462,"(i tried to bisect but it didn't fail at all during the bisection, so i'm checking a few commits near the tip as a sanity check. obvs i messed up the bisect command somehow..)",0,0
+irc-dev,2015-02-16 19:52:00,0,-0.718022,"otherwise you'd be sending a pubkey rather than a nonce, so i didn't see the difference",0,0
+irc-dev,2015-01-07 16:06:00,0,-0.70745,so from the responses I can understand there is no way to download only the new blocks alone ?,0,0
+irc-dev,2015-12-18 16:08:00,0,-0.458321,so my critical post about SW was deleted. is this the new standard?,0,0
+irc-dev,2015-03-24 20:59:00,0,-0.626439,probably not,0,0
+irc-dev,2015-11-14 08:51:00,1,0.921124,do not learn merkle trees from satoshi's implementation - we have an explicit comment about that at the appropriate place in the source code :),0,0
+irc-dev,2015-05-13 15:32:00,0,-0.69632,i'm moving a log message. does that head into trivial or master?,1,0
+irc-dev,2015-01-19 16:36:00,1,0.757793,"ThomasV: yeah, it'd be a good thing to add",1,1
+irc-dev,2015-06-29 13:44:00,0,-0.3818,"or even if they can ,but just feel lazy (e.g. see the fate of two-factor auth)",0,0
+irc-dev,2015-08-19 02:22:00,0,-0.783418,"it's only 4 because... uh because it shouldn't be a huge number as it's not an obvious ""good peer"" and 4 seems better than 1",0,0
+irc-dev,2015-07-17 19:14:00,1,0.489283,seems like rpckeepalive=0 is some sort of tempfix,0,0
+irc-dev,2015-02-24 06:17:00,1,0.772948,"if you can, helpful",1,1
+irc-dev,2015-04-09 10:03:00,0,-0.720415,"rubensayshi: OP_RETURN terminates the script immediately. Furthermore, pubkey scripts are never executed until they are spent.",0,0
+irc-dev,2015-11-12 21:23:00,0,-0.690207,"jgarzik: yea, we need a better strategy there, actually....like, most ""users"" dont read bitcoin-dev, even that is an echo chamber :(",0,0
+irc-dev,2015-01-19 19:51:00,1,0.682321,"is it generally safe to assume that a ""normal"" transaction with one or a few inputs, a receiver, and a change address, would pay a fee equal to relayfee?",1,0
+irc-dev,2015-01-13 12:49:00,0,-0.725035,"jonasschnelli: no, don't build rc2",0,0
+irc-dev,2015-05-20 07:23:00,0,-0.681579,gmaxwell: how did he lose control of it? :/,0,0
+irc-dev,2015-04-27 08:15:00,0,-0.690958,jonasschnelli: i don't understand,0,0
+irc-dev,2015-12-17 19:53:00,1,0.663005,I concur that bitcoin core and zcash both want automated testing of this stuff on many platforms.,1,0
+irc-dev,2015-03-13 20:20:00,0,-0.716596,"or it will refuse by ""fast forwarding"" policies",0,0
+irc-dev,2015-12-09 15:29:00,1,0.431298,jonasschnelli: no dice. do you think it would be worthwhile to create a tracking ticket for getting all RPC commands covered?,0,0
+irc-dev,2015-07-11 17:41:00,0,-0.700989,"s/would/could, those could be exploitable too but you'd expect it to at least put up another barrer...",0,0
+irc-dev,2015-05-26 21:43:00,0,-0.794645,hearn: but doesn't help for the tip in any case; so ... no choice there.,0,0
+irc-dev,2015-01-14 15:09:00,0,-0.638902,I realy reall so wish we were on 5min block times,1,0
+irc-dev,2015-07-28 17:48:00,0,-0.4978,morcos: uhh... locktime gets a time/height dependency. The state of the UTXO set obviously affects validity (your inputs must be unspent when you go into a block).,0,0
+irc-dev,2015-01-19 06:57:00,1,0.594781,"Ok, if the hash of the redeem script `pubkey << checksigverify` is X, then the redeem script would be `signature << pubkey << checksigverify` and then the original input transaction would be `op_hash160 << X << equal` right?",1,0
+irc-dev,2015-08-24 02:01:00,0,-0.685278,I would ping jgarzik but doesn't seem to be here,0,0
+irc-dev,2015-11-11 06:20:00,1,0.503682,ahhh I see,1,0
+irc-dev,2015-06-11 22:00:00,0,-0.871197,"the former might work, if you kept track of what size those blocks would be if you had mined them; but that's even more complex, and the alternative seems to be problematic IMO",0,0
+irc-dev,2015-01-03 22:55:00,0,-0.352384,Unless you mean one huge megablock among many small ones,1,0
+irc-dev,2015-01-20 17:22:00,0,-0.724753,"jrick: anyhow, the reason I asked initially was that if btcd supported accounts (which I guess it won't, from the sounds of it), then it could have served as an alternative to point people to, so the mess in bitcoind might be removed sooner)",1,0
+irc-dev,2015-02-06 20:09:00,0,-0.746306,ajweiss: wheezy? i don't think it packages new certs,0,0
+irc-dev,2015-02-23 03:02:00,1,0.752735,On 64bit 4096 is the maximum. But 2000 is high enough that its pretty much effectively infinite in any case.,1,0
+irc-dev,2015-11-26 17:56:00,0,-0.527615,"jtimon: oh, sorry, the order inside LDADD? that absolutely does matter: they need to be in dependency order",1,0
+irc-dev,2015-01-03 06:51:00,0,-0.572563,but that would no doubt screw up latency bad for initial stuff,0,0
+irc-dev,2015-02-01 22:05:00,0,-0.627917,use case for that seems pretty narrow though,0,0
+irc-dev,2015-03-30 14:14:00,0,-0.496197,"which is why i was advocating the inclusion of these as interfaces, to allow actual logic to be implemented elsewhere",1,0
+irc-dev,2015-04-20 18:51:00,1,0.738881,cfields_: cool! It's just the very basics of a possible new wallet,1,0
+irc-dev,2015-07-02 14:40:00,0,-0.736637,"yep, that error exactly",0,0
+irc-dev,2015-02-03 14:49:00,1,0.437005,what kind of interface would you see between global and module specific call?,1,0
+irc-dev,2015-11-25 20:39:00,0,-0.312185,Trying 127.0.0.1...,1,0
+irc-dev,2015-05-03 05:00:00,1,0.921641,"Basically any user should be able to use the wallet, and as they have more complex needs the wallet should accomidate those too; and if you want to grow in expirence you shouldn't have to graduate to totally different software.... or if you just want to stay a basic user you should be happy too.",1,1
+irc-dev,2015-01-16 19:19:00,1,0.914168,"midnightmagic: oh, you're welcome :)",1,1
+irc-dev,2015-05-22 14:26:00,1,0.912022,"@nickler: ah I see, thanks! I compile master each evening, will use those..",1,1
+irc-dev,2015-04-28 19:50:00,0,-0.444706,i can't see a benefit of a subdomain/keys map,0,0
+irc-dev,2015-11-12 21:13:00,0,-0.646495,"Luke-Jr: But people do not like it. They will get to hate you. In the last four months, we've lost 2.5% due to suspected block withholdings.",0,0
+irc-dev,2015-07-31 10:51:00,0,-0.314057,wumpus: you once mentioned that copying the whole qt file for the wallet fork would also be possible. Do you thing including both qt directories in the autoconf/automake process would work when wrapping everything in a namespace?,1,0
+irc-dev,2015-04-20 18:42:00,0,-0.708827,"the error message to the console was ""Could not download some packages, please run gbuild --upgrade""",0,0
+irc-dev,2015-11-11 18:20:00,0,-0.794953,"stiell: we intentionally chose to not steal the DSA nonce from the signatures, because then it constrains what _kinds_ of coins you can spend to SA users.",1,0
+irc-dev,2015-03-08 20:00:00,0,-0.409551,"it's one of the current functions of the network, but it's easily moved elsewhere",1,0
+irc-dev,2015-05-28 16:14:00,0,-0.414375,maaku: that's not a demo... there's no-where near enough details to figure out what's actually going on there,0,0
+irc-dev,2015-11-29 07:09:00,0,-0.536242,"jtoomim: in other words ""I'm done, take it or leave it"" or ""that sounds much more difficult"" ?",0,0
+irc-dev,2015-01-20 09:04:00,0,-0.615855,"depends builds static, so qt's network lib is linked against static libssl",1,0
+irc-dev,2015-05-13 15:49:00,0,-0.639863,iirc even the simple 10.10.1 broke signing for some progs,0,0
+irc-dev,2015-04-30 13:56:00,1,0.508211,sdaftuar: right.,1,0
+irc-dev,2015-01-06 16:07:00,0,-0.502872,"Also, I think someone at some point recently was talking about a separate repo or something for trivial tweaks to avoid breaking patches and requiring rebase as often",1,0
+irc-dev,2015-05-19 14:47:00,0,-0.771166,so many notifications that firing off the notifications (for every block) would slow the synchronization to a crawl,0,0
+irc-dev,2015-04-13 15:20:00,1,0.517909,"yeah, everything worked fine",1,1
+irc-dev,2015-02-22 10:29:00,0,-0.341585,hidden services are a good way to remain connectable given unstable ips,1,0
+irc-dev,2015-12-30 09:29:00,0,-0.690509,I don't get it,0,0
+irc-dev,2015-04-18 17:27:00,0,-0.429896,It sounds like from discussion the direction will be to break this work into a seperate library.,1,0
+irc-dev,2015-03-05 23:49:00,1,0.435859,Luke-Jr: well there's plenty of associative containers written in C,1,0
+irc-dev,2015-07-18 23:36:00,1,0.855642,sipa: ah cool - that's actually pretty close buy all in all,1,1
+irc-dev,2015-01-12 12:06:00,1,0.707979,create: generate it randomly using secure randomness,1,0
+irc-dev,2015-11-08 21:23:00,0,-0.562256,my point is no one has done it yet,0,0
+irc-dev,2015-12-03 19:30:00,0,-0.773883,i think it's unfortunate that the only documentation for what wallet writers should do is in a single mailnig list post...,0,0
+irc-dev,2015-01-14 11:07:00,0,-0.572256,It redirected me to a login page,1,0
+irc-dev,2015-06-24 21:48:00,1,0.901172,it should build just fine,1,1
+irc-dev,2015-06-07 03:00:00,0,-0.331807,"well duh, but I didn't know if it was a known one.",0,0
+irc-dev,2015-04-07 07:17:00,0,-0.83724,phantomcircuit: I'm so scared now,0,0
+irc-dev,2015-03-08 18:30:00,0,-0.571602,except over http instead raw bitcoin p2p,1,0
+irc-dev,2015-06-24 21:53:00,0,-0.45593,"also, it's not passing -std=c++11",0,0
+irc-dev,2015-02-12 00:22:00,0,-0.417705,not before theuni has pulled the changes into the trivial branch :),1,0
+irc-dev,2015-02-16 22:55:00,1,0.955939,ok cool - thanks steve!,1,1
+irc-dev,2015-02-27 12:11:00,1,0.863643,unless you count willingness to accept risky hacks as a business need. :),1,0
+irc-dev,2015-01-23 17:53:00,0,-0.321748,"hm, IBD with 0.10 is only using 30-80% of a single core for me",0,0
+irc-dev,2015-07-21 12:03:00,0,-0.420188,"though not sure, it shouldn't involve many consensus changes",0,0
+irc-dev,2015-05-27 20:31:00,0,-0.563679,"If you run a big wiki on Wikia, you essentially can't move away from them",0,0
+irc-dev,2015-01-09 17:58:00,0,-0.847844,squashing separate changes seems unnecessary,0,0
+irc-dev,2015-11-26 20:22:00,0,-0.364277,"CodeShark: same, I haven't had a chance to look at it at all",0,0
+irc-dev,2015-12-03 19:47:00,0,-0.616556,"jonasschnelli: so far, it is only critcial to people running nodes with only a few megabits up... the traffic was pretty much totally knocking out my internet at home.",0,0
+irc-dev,2015-05-06 13:01:00,0,-0.638228,it it calculated against block number?,0,0
+irc-dev,2015-04-28 20:33:00,1,0.963602,"ok cool, i'll try to push something up, thanks for your help!",1,1
+irc-dev,2015-03-13 13:38:00,0,-0.398968,but i assume you have kind of a check-and-restart script?,1,0
+irc-dev,2015-02-27 20:22:00,0,-0.49404,"that way the derived classes can store the keys however they want, as long as they implement the getters properly. That would mean that an app author could create their own store with their own whacky scheme and not have to use CKey",1,0
+irc-dev,2015-11-10 09:01:00,0,-0.84534,"sturles, there's really no useful way to do the mempool limiting unless it's fee based only",1,0
+irc-dev,2015-02-10 01:25:00,1,0.720215,"eh, just added some swap memory and seeing if that gets it past it",1,0
+irc-dev,2015-05-01 17:37:00,0,-0.620117,"Luke-Jr: I never knew dgenr8 before chatting with him in this very chatroom, and I don't know of any relatives named Tom Harding. So we're likely only distantly related.",0,0
+irc-dev,2015-12-21 21:12:00,0,-0.850449,"moa: when a core maintainer hinges his decision on 'consensus' but then has no real clear metric of what 'consensus' is, then i see that as a severe problem.",0,0
+irc-dev,2015-01-21 12:32:00,0,-0.812503,"op_mul, hmm... there should be a warning about that (at least).",0,0
+irc-dev,2015-04-05 00:48:00,0,-0.641303,"as electrum is that far, maybe it doesn't make sense to develop another GUI at all",0,0
+irc-dev,2015-07-11 16:22:00,0,-0.894771,I just wonder why txns confirm so unpredictably.,0,0
+irc-dev,2015-07-14 16:00:00,0,-0.682466,"As far as counter intutive goes, I'm afraid that if change isn't given a bypass there will always be some counterintutive behavior (though it could be much better)",0,0
+irc-dev,2015-12-04 02:26:00,0,-0.778878,"gmaxwell: yeah i see the motivation. but i worry about things which don't have any enforceable meaning, but people might come to rely on unwisely. i don't have a specific objection, i'm just wary",0,0
+irc-dev,2015-07-11 15:59:00,0,-0.742667,"wumpus, not ""really old"" peers.dat - the node was working and active days ago, before my trip, when I shut it down.",0,0
+irc-dev,2015-01-04 00:18:00,0,-0.519832,or is it 9000 bytes? whatever. same thing,1,0
+irc-dev,2015-03-08 22:42:00,0,-0.656093,"actually you see the education yourself, from hearing from you several people (authorities in the eyes of the organizers) at the mit expo were telling people not to run it. Was there anyone saying that those people were wrong?",0,0
+irc-dev,2015-05-03 06:17:00,0,-0.784251,your failures there are all out of memory ones.,0,0
+irc-dev,2015-12-07 22:30:00,0,-0.568168,"but i am taking his port and added extra error checking and was getting crashes for certain inputs, one second",0,0
+irc-dev,2015-05-01 17:46:00,0,-0.843639,"a bug in the kernel might even expose other programs to your memory space, causing forks",0,0
+irc-dev,2015-06-11 02:19:00,0,-0.91596,so it really just makes it harder to do,0,0
+irc-dev,2015-02-11 19:12:00,0,-0.366283,"hearn, is there no project browsing with the app?",0,0
+irc-dev,2015-06-17 19:33:00,1,0.698596,ah. Right.,1,0
+irc-dev,2015-03-13 23:39:00,0,-0.779871,You may as well not present at all if you're going to misinform people like that.,0,0
+irc-dev,2015-12-20 08:59:00,0,-0.745017,sipa: you're doing a simple merkle tree. that's not optimal,0,0
+irc-dev,2015-12-04 05:14:00,1,0.77339,"s'not the only way; if you want to be a hero you can go review, you'd be like the only person doing it there. :)",1,1
+irc-dev,2015-05-27 06:44:00,0,-0.738985,"yea, now that you mention it, seems that I was misreading the behavior. (testing on a slow PPC host)",0,0
+irc-dev,2015-02-11 14:57:00,0,-0.665932,"strange, the inittial keypool creation was never super-fast here but neither so slow",0,0
+irc-dev,2015-11-10 10:46:00,0,-0.828247,"The highest paying transaction makes up about 1% of the total block reward, but after the first few kB of high paying transactions the fees are so low it makes no sense to filter based on them.",1,0
+irc-dev,2015-01-03 06:47:00,0,-0.740755,"phantomcircuit: heh, too bad it isn't smart enough to route across the US ;P",0,0
+irc-dev,2015-11-10 10:19:00,0,-0.360277,There is basically no economic incentive in promoting paid spam over high priority transactions.,0,0
+irc-dev,2015-01-22 00:57:00,1,0.781278,"if you have a more featureful class that adds extra fields, perhaps precomputed values, ... that's different",1,0
+irc-dev,2015-01-19 18:51:00,0,-0.671229,"shamoon: yes, if you ""keep a copy of the contract"" you're fine, if the contract is created on demand in the protocol you need to create an immediate backup or you're fucked if anything goes wrong",0,0
+irc-dev,2015-06-06 09:46:00,0,-0.608461,"if not, I'm going to close all the c++11-transition-ish pulls until the next release window",1,0
+irc-dev,2015-07-09 21:08:00,0,-0.675457,what the hell did I do wrong =/,0,0
+irc-dev,2015-11-17 15:51:00,1,0.779318,:),1,1
+irc-dev,2015-11-07 04:34:00,0,-0.694881,i apologize for conflating the terms,0,0
+irc-dev,2015-07-13 19:49:00,1,0.865933,"quick bursts are handled by the -backup method-, the cap",1,0
+irc-dev,2015-07-09 06:20:00,1,0.559063,which is a problem since you cant be sure it's computational sane,0,0
+irc-dev,2015-04-18 03:06:00,0,-0.339632,"I tried 600, nothing changed",0,0
+irc-dev,2015-02-09 18:57:00,1,0.699972,"Luke-Jr: re replace-by-fee patch set, I'm going to do one up now that v0.10 is about to be released; had a few other people ask me about it as well",1,0
+irc-dev,2015-08-12 07:48:00,1,0.716506,"oh, a client library, right :)",1,0
+irc-dev,2015-06-17 15:55:00,1,0.559907,"sdaftuar: oh! we do have a test for reindexing, that's interesting, maybe it takes a long time?",1,0
+irc-dev,2015-05-30 07:39:00,1,0.648446,"luke-jr: you could have a kind of basic ""policy scripting language"" where you can define policies in a configuration file loaded by bitcoind. Then you could take out all the relay policy code from bitcoin core entirely.",1,0
+irc-dev,2015-05-06 12:36:00,0,-0.799551,"the split-outs I'm doing here were, aside from clearing up past aggregated commit confusion, a specific habit to assist cherry-pick/merging, fwiw. it does, at some point, have a purpose. probably just not here.",1,0
+irc-dev,2015-01-22 04:06:00,0,-0.641069,"not here, no.",0,0
+irc-dev,2015-01-20 12:12:00,1,0.647655,1366 x 768 is pretty common.,1,0
+irc-dev,2015-01-06 10:49:00,0,-0.369253,just the work,0,0
+irc-dev,2015-07-09 18:07:00,0,-0.835452,or maybe that code is actually too slow,0,0
+irc-dev,2015-01-23 13:21:00,0,-0.72024,"jtimon: ah no, looking wrong",0,0
+irc-dev,2015-04-01 19:11:00,0,-0.616537,"cfields, i didn't expect this on osx to happen. Wonder where the differences are... didn't analyzed.",0,0
+irc-dev,2015-11-24 08:21:00,0,-0.440706,"aj: yes, but we have to be careful of House Slytherin, they might plan an attack.",0,0
+irc-dev,2015-11-05 12:26:00,1,0.495908,"cfields: I've been thinking about having a consensus module with what's currently in libconsensus separated from util, common, etc. Does that makes sense to you?",1,0
+irc-dev,2015-01-06 16:45:00,0,-0.554273,"sipa, yea I know that, I am just asking if I wasnt using an api",0,0
+irc-dev,2015-11-18 00:51:00,0,-0.836546,rusty: sorry; I think you probably missed where I broadcast at you about this before (stupid timezones),0,0
+irc-dev,2015-11-29 17:24:00,1,0.516366,harding it would also be cool if we could somehow get a feed of merged PRs somewhere.,1,1
+irc-dev,2015-02-08 22:32:00,0,-0.77425,sqed: seems the documentation is wrong,0,0
+irc-dev,2015-06-18 07:08:00,0,-0.37665,tx *not* get mined,0,0
+irc-dev,2015-12-17 16:22:00,0,-0.591555,"Its a developer list with a high bar right now. For those things not meeting that bar, as defined by the moderator, there is the discuss mailing list.",0,0
+irc-dev,2015-06-24 22:08:00,1,0.900567,"that looks much beter, Luke-Jr :)",1,0
+irc-dev,2015-06-26 17:02:00,0,-0.536244,"I could see it become mandatory at some point that all executables are signed, but right not it's not very relevant, no",0,0
+irc-dev,2015-03-17 22:26:00,0,-0.634648,"phantomcircuit: yes you can, but that gets rid of how recent indexes have particularly short proofs on average, and how in the MMR implementation in proofmarshal, you can efficiently concatenate MMR's together",1,0
+irc-dev,2015-02-12 05:47:00,0,-0.591149,"also, things like keyloggers in a chrome app on a chromebook are very difficult to achieve",1,0
+irc-dev,2015-06-11 13:23:00,0,-0.806427,ok. but what about blocks that I may have missed while the daemon was down?,0,0
+irc-dev,2015-01-09 08:13:00,1,0.936681,Michael Ochurch has an excellent blog on the subject,1,0
+irc-dev,2015-02-27 13:19:00,0,-0.600683,"The public derrivation approach also has the key fragility problem, leak one private key, you've leaked them all. I think people often underestimate the risks from that.",0,0
+irc-dev,2015-01-09 17:54:00,1,0.44296,i recall some kind of discussion about that,1,0
+irc-dev,2015-01-09 08:21:00,1,0.439542,"jonasschnelli: worked fine for me, I compiled and run bitcoind on both BE and LE mips",1,0
+irc-dev,2015-11-12 09:11:00,1,0.535387,i'll try rebuilding the chain to see if that helps,1,0
+irc-dev,2015-05-19 14:26:00,1,0.434866,"(i completely made up those func names ofc, but there's something like that)",1,0
+irc-dev,2015-04-04 23:50:00,1,0.851018,"phantomcircuit: yes, the only consensus use of boost is locking constructs and things like FOR_EACH which are in C++11.",1,1
+irc-dev,2015-02-12 05:30:00,1,0.875226,"phantomcircuit: great, thx",1,1
+irc-dev,2015-06-11 19:21:00,0,-0.402446,"anyway, Ive got a branch nearly together that should work",1,1
+irc-dev,2015-03-09 04:28:00,0,-0.516392,rather what do i do to fix it!,1,0
+irc-dev,2015-05-02 00:20:00,0,-0.781446,"I suppose, since I'm just testing the behavior of sending large messages, I just want to understand if a thrown exception will cause the sending node to shutdown (or whatever the behavior might be)",1,0
+irc-dev,2015-01-16 10:28:00,1,0.579929,"jonasschnelli: indeed, per-PR builds may be more useful than nightly builds there",1,0
+irc-dev,2015-04-14 11:17:00,0,-0.458378,the point of a bip32 pubkey wallet is that you can generate a virtually unlimited number of addresses subject to the exact same security policy but cannot spend anything,1,0
+irc-dev,2015-01-26 16:34:00,0,-0.311124,i'll be unsophisticated and see how an SSD performs,0,0
+irc-dev,2015-11-12 19:40:00,0,-0.679083,petertodd: no sense in delaying this or dealing with refactoring that will come in 0.13,0,0
+irc-dev,2015-03-31 02:56:00,1,0.927589,you're welcome to discuss technical improvements,1,0
+irc-dev,2015-03-14 17:31:00,1,0.768885,"sipa: Oh, good call... I think that will work, though it means I will have to manually choose the utxos rather than letting bitcoind choose them the way it normally would when it creates a transaction.",1,1
+irc-dev,2015-08-10 15:20:00,1,0.492855,jonasschnelli: is there *any* evidence the TTL is relevant?,0,0
+irc-dev,2015-12-14 17:26:00,0,-0.529738,"arioBarzan_: the specification is here https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki, the implementation is https://github.com/bitcoin/bitcoin/pull/6124 (minus the softfork code which came in https://github.com/bitcoin/bitcoin/pull/6351)",1,0
+irc-dev,2015-11-07 05:00:00,0,-0.634658,but i am not sure,0,0
+irc-dev,2015-02-03 11:40:00,1,0.956924,"jonasschnelli, thanks so much :)",1,1
+irc-dev,2015-01-01 10:21:00,1,0.65347,really its immature and undertested enough that you might as well run master.,0,0
+irc-dev,2015-01-29 12:19:00,0,-0.769651,"benjamindees: we've already been over this, haven't we?",0,0
+irc-dev,2015-03-12 09:22:00,1,0.504361,"Krellan_ try cleaning everything out and before running ./autogen.sh ... e.g. ""git clean -fxd"" takes back to a fresh git state",0,0
+irc-dev,2015-05-20 11:21:00,0,-0.245802,"But i have to admit i'm not happy with the SigneColorIcons. On ubuntu it looks good. But on Fedora the blueish looks,... ugly.",0,0
+irc-dev,2015-11-07 04:04:00,0,-0.557705,and you're probably getting a slow trickle of transactions through free relay,1,0
+irc-dev,2015-07-20 15:34:00,1,0.660663,"sipa: Hence the help says ""Returns details about an unspent transaction output."" Thanks!",1,1
+irc-dev,2015-06-10 11:31:00,0,-0.787371,to avoid the static up-counting,1,0
+irc-dev,2015-04-15 16:38:00,1,0.573516,is that correct?,0,0
+irc-dev,2015-02-27 10:21:00,0,-0.556787,Luke-Jr: do you understand why we'd never merge a patch like yours upstream?,0,0
+irc-dev,2015-06-14 14:42:00,1,0.525054,"so assume this is the reason for the statement, would it still be true if it was referring to gaining two complete chains?",1,0
+irc-dev,2015-07-14 15:52:00,0,-0.1141,"jgarzik: I think its the intended behavior still, crazy and useless as it is. :) (less than 1 would just be spending your own change)",0,0
+irc-dev,2015-07-14 15:55:00,0,-0.609236,"The only case where bitcoin core should spend a unconfirmed input is when (1) there is no other choice, send would fail otherwise, and (2) all the history of the unconfirmed coin is either a send-to-self or confirmed.",1,0
+irc-dev,2015-04-28 15:16:00,1,0.776455,andytoshi: thanks for the review so far; i'll try to address the comments,1,1
+irc-dev,2015-06-29 13:32:00,1,0.725788,and of course hope that your node is in sync with what the rest of the network is running :),1,0
+irc-dev,2015-06-01 17:20:00,0,-0.518741,wallets will eventually just become dumb signers,0,0
+irc-dev,2015-11-02 16:02:00,1,0.782781,"Since people are researching DB schemes, I'm writing an SQL database to hold the data a full node would. I've been having some fun with nested sets - it implicitly lets you write simple queries for hierarchical chains, tips, etc.",1,0
+irc-dev,2015-03-11 13:53:00,1,0.569595,ok got a lot of data what am I looking for to verify that other bitcoind's can initiate a cnxn,1,0
+irc-dev,2015-07-11 15:14:00,1,0.768969,I think it works very well w/ a mempool cap - complementary,1,1
+irc-dev,2015-03-11 13:09:00,1,0.689229,Basically wanting to grasp the Gitian descriptors working up from the start through the current which are really nice since they obviously build OSX/Win/OSX without external networking.,1,0
+irc-dev,2015-01-22 00:06:00,0,-0.510035,benjamindees: that's no better than just increasing the bitcoin block size,0,0
+irc-dev,2015-08-04 16:57:00,1,0.625488,anddam: macports? you probably would be happier with homebrew,1,0
+irc-dev,2015-03-27 08:04:00,0,-0.707696,jonasschnelli: no use in leaving such a trivial pull open for so long,0,0
+irc-dev,2015-07-13 19:37:00,1,0.433202,since the pool is near-empty,0,0
+irc-dev,2015-04-30 14:30:00,0,-0.598454,"(a in the unit tests - we don't compare unit test output to a previous version, we just compare it to what it should be - but maybe I'm missing something)",0,0
+irc-dev,2015-11-14 08:48:00,0,-0.382625,b-itcoinssg: because Satoshi didn't design his merkle trees very well; it's a defect we maintain only because changing the protocol is difficult,0,0
+irc-dev,2015-04-04 09:58:00,0,-0.373902,Accidently the whole Bitcoin-Dev Community Distributed Denial of Effectless debaucheries,0,0
+irc-dev,2015-02-20 05:45:00,0,-0.772971,"sipa, this seems to be doing the opposite of that",0,0
+irc-dev,2015-02-23 03:01:00,1,0.909381,"cfields: cfields once im happy that builds are fine, i'll move to tests/run",1,0
+irc-dev,2015-12-07 22:34:00,0,-0.793653,set_xo can fail,0,0
+irc-dev,2015-06-22 22:11:00,0,-0.579563,sipa needs to add,1,0
+irc-dev,2015-12-15 14:49:00,0,-0.801102,"morcos: even if we want to change the rule, it must be applied only to unknown transaction versions. Otherwise people with un-broadcast tx may get burnt",1,0
+irc-dev,2015-04-21 19:13:00,1,0.527856,"sipa: yes I agree its something of a policy issue; though a mild one, unless it causes really bad coin selection you'd almost never want to not do it. I would personally use that feature.",0,0
+irc-dev,2015-04-27 07:01:00,0,-0.553301,reminds me that I have to announce the merge window close for 0.11 soon,1,0
+irc-dev,2015-02-11 14:09:00,1,0.460592,paveljanik: which wallet(s) do you prefer for real use?,0,0
+irc-dev,2015-11-19 19:24:00,0,-0.499066,Luke-Jr: that means you still get coins that may be locked up for infinity,0,0
+irc-dev,2015-11-12 21:23:00,1,0.694135,"BlueMatt, agree w/ sentiment - though I want to be a cheerleader for progress, steps in the right direction",1,1
+irc-dev,2015-11-12 19:28:00,1,0.461706,morcos: thats already in master!,1,0
+irc-dev,2015-01-19 20:04:00,0,-0.601422,"I think last time this came up, gavinandresen mentioned an alternative/newer way to do the same - but I don't recall what it was",0,0
+irc-dev,2015-06-06 09:46:00,0,-0.716555,c99 support is not relevant to this,0,0
+irc-dev,2015-03-03 08:27:00,1,0.929852,":D, fair enough",1,0
+irc-dev,2015-03-08 18:31:00,0,-0.395289,this is an orthogonal problem,0,0
+irc-dev,2015-05-11 18:45:00,1,0.047505,"cfields: i think i accidentally left some Object/Array around. But right, i need to get rid of them and the wrapper. This would be the right thing IMO.",1,0
+irc-dev,2015-06-17 19:32:00,0,-0.593832,jonasschnelli: huh? the sign is not necessary,0,0
+irc-dev,2015-07-01 14:10:00,0,-0.401783,Fixed and pushed.,1,0
+irc-dev,2015-04-14 05:00:00,1,0.702654,i think sidechains will help a lot with bringing the innovation energy back into alignment,1,0
+irc-dev,2015-01-03 21:43:00,0,-0.340617,"Okay, I closed the connection to that peer and now I'm synced up",1,0
+irc-dev,2015-04-21 11:24:00,0,-0.571849,"hearn: nope, should be up again",1,0
+irc-dev,2015-12-21 20:15:00,0,-0.309251,"The core maintainers and the core devs have all of the power. Ins't that the meaning of the word ""core""?",1,0
+irc-dev,2015-06-10 11:29:00,1,0.88918,"jonasschnelli: well, that's part of why -upgradewallet is important too ;)",1,1
+irc-dev,2015-06-14 20:33:00,1,0.872907,"ok, thanks. That's also what I thought.",1,1
+irc-dev,2015-05-19 15:39:00,1,0.812785,hmm... true.,1,1
+irc-dev,2015-12-06 03:19:00,0,-0.308001,gmaxwell: cant we solve scalability using a DHT?,0,0
+irc-dev,2015-07-01 07:42:00,0,-0.0274787,Yeah. It should be fine. But somehow the deconstrutor is not getting called. This seems to be wrong.,0,0
+irc-dev,2015-06-30 23:40:00,1,0.790949,"CodeShark: it's a good idea, but that kind of complexity will need a redesign of the mempool I think",1,1
+irc-dev,2015-12-07 22:30:00,1,0.519157,I am wrapping your library and it works,1,0
+irc-dev,2015-08-11 19:54:00,0,-0.833467,"instagibbs, oh no i was just being silly",1,0
+irc-dev,2015-05-04 00:54:00,1,0.746897,"if there are nits or other aspects (i need to know more about prngs) that would be neat to look into, that could be a side path as well",1,1
+irc-dev,2015-12-28 17:57:00,1,0.716467,it's also more flexible,1,1
+irc-dev,2015-12-21 20:30:00,0,-0.625073,"Okay, before I load this URL, let me just tell you what I'm going to look for first.",1,0
+irc-dev,2015-01-06 15:23:00,0,-0.384233,"master, I mean.",1,0
+irc-dev,2015-03-03 08:24:00,1,0.85335,"I'll just hack bitcoind to do it, thanks for the suggestion anyhow",1,0
+irc-dev,2015-05-27 20:54:00,0,-0.829648,"oh, my mistake",0,0
+irc-dev,2015-01-12 11:55:00,0,-0.317622,"midnightmagic: yeah, latest here too",1,0
+irc-dev,2015-02-13 11:19:00,1,0.850447,being the 'only trustworthy team' also puts a lot of pressure on us,0,0
+irc-dev,2015-06-29 13:56:00,0,-0.765417,jonasschnelli: and then you said you wouldn't recommend SPV for anything beyond buying pizza,0,0
+irc-dev,2015-02-23 06:37:00,1,0.800483,i'll let you off on that one :),1,0
+irc-dev,2015-01-15 00:50:00,1,0.748636,btw this is git master,1,0
+irc-dev,2015-02-22 23:54:00,0,-0.847213,how can I nail down the actual problem?,0,0
+irc-dev,2015-05-30 07:00:00,1,0.163887,part of the reason that I want to process sep the wallet in the long term is to use selinux to make it so that the wallet is the only thing on the system that can access the wallet. :) and the wallet can only talk to the full node and nothing else. etc.,1,1
+irc-dev,2015-05-22 06:28:00,0,-0.77426,"there's only neglible changes between 0.10.1 and 0.10.2, forward porting a patch shouldn't give any difficulties",1,0
+irc-dev,2015-02-20 00:01:00,1,0.640483,ACTION ponders if roybadami's performance is related to his own,1,0
+irc-dev,2015-04-01 16:36:00,0,-0.784333,cfields: ohhh crap,0,0
+irc-dev,2015-04-24 00:43:00,0,-0.842955,what's the worse that could happen?,1,0
+irc-dev,2015-01-16 07:38:00,0,-0.476738,e.g. the keys are offline.,0,0
+irc-dev,2015-03-27 08:34:00,0,-0.718601,it's not like keys are some scarce resource.,0,0
+irc-dev,2015-02-23 07:49:00,0,-0.844254,"i haven't been able to verify that it's not my weird setup, otherwise i'd report to upstream",0,0
+irc-dev,2015-07-06 09:36:00,1,0.0233154,"well, can we at least actively discourage the use of nondecimal floating point? :)",0,0
+irc-dev,2015-05-27 14:25:00,1,0.832268,harding: hmm... on a newer pr is already there. (https://github.com/bitcoin/bitcoin/pulls),1,0
+irc-dev,2015-11-29 08:24:00,1,0.574138,maybe btcchina as well,1,0
+irc-dev,2015-05-04 01:25:00,1,0.961293,That's an excellent point,1,0
+irc-dev,2015-02-27 09:28:00,0,-0.676765,"well this is on my 2.1ghz laptop, so probably a bit slower than you were expecting.",0,0
+irc-dev,2015-01-29 01:39:00,1,0.731647,"rpc is fully serialized, and taking cs_main the whole time",1,0
+irc-dev,2015-04-29 09:31:00,1,0.796087,"wumpus: thank you, I will",1,1
+irc-dev,2015-08-17 06:48:00,0,-0.7375,"then the relay policy should be solely based on evaluation cost, not whether it's ""standard"" or not",1,0
+irc-dev,2015-07-01 14:05:00,1,0.678538,please also make the argument an uint256 to make it consistent with Inventory,1,0
+irc-dev,2015-03-13 15:15:00,0,-0.528357,the issue of transaction anonymity?,0,0
+irc-dev,2015-03-02 05:50:00,1,0.741827,but it's easy to do,1,0
+irc-dev,2015-04-14 04:40:00,0,-0.666215,"CodeShark, if there were no case then nobody would bother about bitcoin",0,0
+irc-dev,2015-08-21 21:57:00,0,-0.788514,heh...we really need to optimize that shit at the datastructure level...but bah :p,1,1
+irc-dev,2015-02-20 20:12:00,0,-0.555798,jtimon_: mind taking a quick look over my work-in-progress to see if we're going to clash?,0,0
+irc-dev,2015-07-27 09:23:00,0,-0.820441,keeping it up to date correctly is harder :),1,0
+irc-dev,2015-03-01 04:29:00,0,-0.522608,which it's currently not,0,0
+irc-dev,2015-01-22 23:22:00,0,-0.297441,But that's a very old post,0,0
+irc-dev,2015-01-13 14:32:00,0,-0.611552,"jonasschnelli: no, that goes in inputs/",1,0
+irc-dev,2015-05-16 15:07:00,1,0.779318,:),1,1
+irc-dev,2015-12-01 20:26:00,0,-0.499555,"blocksync: so, ordinary nodes consider fees when deciding whether or not to relay transactions",0,0
+irc-dev,2015-11-01 18:53:00,1,0.599478,rusty: but mining is controlled by economic incentives,1,0
+irc-dev,2015-07-28 05:09:00,0,-0.423928,"moa: (though weakly sometimes, granted)",0,0
+irc-dev,2015-11-12 19:48:00,0,-0.711733,"get opt-in RBF into tree, and it will show up in wallets rapidly.",1,0
+irc-dev,2015-01-16 10:19:00,1,0.667254,"fanquake, this one is a style thing and i would also like to see you testing this: https://github.com/bitcoin/bitcoin/pull/5628",1,1
+irc-dev,2015-02-27 12:19:00,1,0.620838,"Eliel: well, i'm not sure; i think all we'd get from that is people helping build indexing on top, not core improvements",0,0
+irc-dev,2015-07-11 15:19:00,0,-0.686103,"and just increasing relay fee is not enough, because a higher relay fee makes it harder to replace transactions in the mempool",0,0
+irc-dev,2015-02-20 10:39:00,1,0.854622,"Oh great, more work for me ;D",1,0
+irc-dev,2015-05-29 11:35:00,1,0.500213,"another option would be to switch to (or add) ecdsa-based gitian signatures, those will be easier to verify in our context",1,0
+irc-dev,2015-03-13 15:05:00,1,0.878956,"I think that would be really handy and useful for both increasing network reslience and efficiency for those that choose to ""optimize""",1,1
+irc-dev,2015-05-08 01:07:00,0,-0.49064,amiller: oh this is wrt a fingerprint attack?,0,0
+irc-dev,2015-03-16 22:30:00,0,-0.824503,ok well that's a terrible idea. don't conflate it. OP_HEIGHT is bonkers,0,0
+irc-dev,2015-01-22 05:27:00,0,-0.430587,"ah, that's where I was confused.",0,0
+irc-dev,2015-05-29 15:23:00,0,-0.726262,"if most miners use the default settings why not just change the default to mine 1mb blocks, it'll at least make miners consider what they want",1,0
+irc-dev,2015-11-04 22:15:00,1,0.501681,"sipa: actually, looks even easier than that",1,1
+irc-dev,2015-11-29 08:07:00,1,0.542874,"I think returning early and running it in the background is reasonable, I don't thing anyone cares if they get one unit of bad work before the processes asserts.",1,0
+irc-dev,2015-04-11 02:30:00,1,0.487196,ACTION should finish v3 block support for Eloipool,1,0
+irc-dev,2015-03-17 22:12:00,1,0.435183,sipa: eventually good to have at least an interactive total work commitment scheme,1,1
+irc-dev,2015-01-01 01:52:00,0,-0.707106,SoCo_cpp: you need to follow the instrucions for pushing. You need to use an authenticated upload mechenism.,1,0
+irc-dev,2015-04-14 04:20:00,0,-0.681762,"if you don't think that's a problem, I don't know what to say :p",0,0
+irc-dev,2015-12-18 05:18:00,0,-0.811131,"double sha256 is less than twice the number of operations for single sha256 if implemented optimally...but I think the main concern here is security, not performance",1,0
+irc-dev,2015-01-06 10:25:00,0,-0.32176,"well, we already do the same for e.g. berkeleydb, that's only required when the wallet is built",1,0
+irc-dev,2015-01-12 11:59:00,1,0.466698,michagogo: yes,1,0
+irc-dev,2015-04-10 10:48:00,0,-0.888967,"Luke-Jr: but say you have a testnet in a box setup and want to mine at difficulty 1, and it takes 60 minutes to find a block, that's kind of crappy :-)",0,0
+irc-dev,2015-06-29 15:56:00,0,-0.707664,But it's a trivial issue.,0,0
+irc-dev,2015-07-30 12:21:00,1,0.862957,it's always good to see the advantates,1,1
+irc-dev,2015-03-26 18:20:00,0,-0.50879,Luke-Jr: you have to re-configure to get the new defines picked up,1,0
+irc-dev,2015-07-13 19:56:00,1,0.735587,seems like we're kind of going in a circle,0,0
+irc-dev,2015-05-30 06:52:00,1,0.717132,Luke-Jr: oh .. fair point.,1,0
+irc-dev,2015-01-26 10:54:00,0,-0.84382,"right, I vaguely remember now, we already check the resulting script against MAX_SCRIPT_ELEMENT_SIZE for that though",1,0
+irc-dev,2015-12-17 06:22:00,0,-0.805683,"jl2012: as a rule, if it's on blockchain.info, it's bogus",0,0
+irc-dev,2015-11-07 04:10:00,1,0.63131,return true;,1,0
+irc-dev,2015-03-13 01:23:00,0,-0.598359,"np, I'm just now left hoping you're not using it for malware :x",0,0
+irc-dev,2015-04-10 07:07:00,0,-0.375421,we could use s different url for the wallet rpcs,1,0
+irc-dev,2015-03-30 08:30:00,1,0.868357,nice! That's perfect.,1,0
+irc-dev,2015-04-05 18:28:00,0,-0.385722,there is a lightbulb in the PSU,1,0
+irc-dev,2015-06-27 07:51:00,1,0.201588,Long term: yes. From the beginning separated would mean to include many changes in the core without actually a obvious benefit. These PR will have a hard time. :),1,0
+irc-dev,2015-02-27 18:57:00,1,0.629978,"If those were published, you could also implement a kind of an automated pooling with them. Miners could then reduce their variance without pools by including each other in the coinbase outputs with a tit for tat algorithm.",1,1
+irc-dev,2015-07-20 19:09:00,0,-0.757573,this all comes down to the fact that even exhaustive search over possiblities is insufficient if we don't have a way of aggregating to boot larger size packages,0,0
+irc-dev,2015-04-09 13:09:00,0,-0.595261,What's weird is that it worked last night,1,0
+irc-dev,2015-08-06 06:16:00,0,-0.866938,"dcousens, ultimately that's a losing battle",0,0
+irc-dev,2015-11-26 19:46:00,1,0.596435,I guess it's mergeable - but we merged in something recently,1,0
+irc-dev,2015-12-06 16:15:00,0,-0.728128,"sorry, can't help you there",0,0
+irc-dev,2015-01-07 11:41:00,0,-0.810638,I've got a transaction that gets rejected by bitcoind sendrawtransaction command with error code -25 and empty reject reason. I'm at a loss on how to debug. Any ideas?,0,0
+irc-dev,2015-07-06 00:16:00,1,0.708804,"mr_burdell> thx , and for the update of machine ?",1,0
+irc-dev,2015-06-29 13:36:00,1,0.486559,jonasschnelli: in practice upgrades to trusted-peer-mode aren't the top things users demand from SPV wallet makers.,1,0
+irc-dev,2015-11-14 06:27:00,0,-0.545701,but this is almost never the case for the average spv client,0,0
+irc-dev,2015-02-17 10:36:00,1,0.66068,nice catch,1,1
+irc-dev,2015-03-01 19:42:00,0,-0.732886,i forgot what the original question was about,0,0
+irc-dev,2015-02-17 23:32:00,0,-0.773539,"i knew it would be soon, didn't see it already happened",0,0
+irc-dev,2015-04-01 19:11:00,1,0.848733,"jonasschnelli: no worries and no need, I'll look into it. Thanks for testing",1,1
+irc-dev,2015-02-16 10:17:00,1,0.821414,Luke-Jr: thanks,1,1
+irc-dev,2015-03-24 20:50:00,1,0.584149,"best of luck, let me know if you need a tester or anything",1,1
+irc-dev,2015-12-18 15:25:00,1,0.565445,"tagged by ""myBTCcoin Pool"", if blocktrail isn't wrong about that..",0,0
+irc-dev,2015-02-27 20:24:00,1,0.772675,"yep, fair enough. I'll clean up what i've got and push it out",1,1
+irc-dev,2015-02-13 19:24:00,0,-0.450454,i presume so,1,0
+irc-dev,2015-01-29 09:18:00,0,-0.553752,"anyhow, I'll look into it, I want to know now",1,1
+irc-dev,2015-08-11 05:56:00,0,-0.81545,quickly becomes a huge maintenance burden.,0,0
+irc-dev,2015-06-23 10:22:00,0,-0.338852,"CodeShark, core doesn't calculate the utxo for normal validation",0,0
+irc-dev,2015-12-24 09:59:00,0,-0.779649,i'm trying to spend cltv locked coins,1,0
+irc-dev,2015-05-03 03:19:00,0,-0.659932,leakypat: 0.10.x in general doesn't seem to survive unclean shutdowns,0,0
+irc-dev,2015-11-19 19:45:00,1,0.0602946,"I thought maaku had updated that. The PR has the right details. In any case, this is minor to update.",1,0
+irc-dev,2015-06-22 21:54:00,0,-0.54169,"two of my own transactions, which are obviously not involved, are still unconfirmed for 6+ hours",0,0
+irc-dev,2015-01-19 20:11:00,0,-0.639665,"the goal is for it to interface with bitcoind, since bitcoin-qt seemingly can't",0,0
+irc-dev,2015-01-22 00:08:00,0,-0.410641,"phantomcircuit: there is, but it's determined by network latency",1,0
+irc-dev,2015-06-23 10:32:00,0,-0.929559,and that the problem will only continue to get worse and worse and worse,0,0
+irc-dev,2015-11-25 17:15:00,0,-0.496635,Question: Where did the first bitcoin came from and how was it distributed?,1,0
+irc-dev,2015-05-29 15:03:00,1,0.858086,"Great, so we know that you will support and help where needed. Now let's see if you can get a team together to implement the rest of it before the blocks are actually full",1,1
+irc-dev,2015-04-18 17:26:00,1,0.483935,", and we'd want to write tests for the combiner (that isn't in there yet) that show that the compiler correctly depends on both inputs and still is random if either input is constant.",1,0
+irc-dev,2015-02-15 01:19:00,1,0.674793,cites are also acceptable,1,0
+irc-dev,2015-02-20 19:12:00,0,-0.688744,this happens to be a debian 6 vm i setup last night,1,0
+irc-dev,2015-03-25 22:00:00,0,-0.706973,"GAit: in short, getting Bitcoin users to identify themselves/removing anonymity from bitcoin",0,0
+irc-dev,2015-03-10 14:02:00,1,0.816352,it is a step forward,1,0
+irc-dev,2015-07-16 10:36:00,1,0.635326,hearn: Hi Mike!,1,0
+irc-dev,2015-03-14 13:15:00,1,0.665478,afaik it's the closest thing there is to 'alternative blockchain',1,0
+irc-dev,2015-01-04 02:19:00,0,-0.615875,"gmaxwell: I'm not claiming you're calling me a sociopath, just that you're using that term for a whole class of people using bitcoin",0,0
+irc-dev,2015-06-22 14:41:00,1,0.809918,wumpus: thanks!,1,1
+irc-dev,2015-11-02 08:42:00,0,-0.472394,then to consider the symmetry of swapping mtp and blocktime,0,0
+irc-dev,2015-07-14 17:16:00,0,-0.472682,"sipa: atm, we don't use openssl's engine functionality at all do we? Other than maybe accidentally for keygen/passphrase in crypter?",1,0
+irc-dev,2015-01-14 10:46:00,0,-0.337322,"gdm85: in principle you can build bitcoin core for android, people (at least cfield) have done that",1,0
+irc-dev,2015-07-22 12:59:00,0,-0.864795,"sipa: ugh, never mind, its just screwed up in my simulation",0,0
+irc-dev,2015-11-19 19:55:00,0,-0.732911,jtimon: not much to say there other than I posted a think to the dev list announcing it and got no responses,0,0
+irc-dev,2015-04-16 19:38:00,1,0.459578,"sipa, equal total pow yeah",1,0
+irc-dev,2015-12-21 20:31:00,1,0.447654,"Ah yes, I've read this.",1,0
+irc-dev,2015-04-25 13:46:00,0,-0.796708,"ok i have a git question. i have a banch in a PR, and want to rewrite history to undo the last commit",1,0
+irc-dev,2015-04-20 18:00:00,0,-0.881682,make: *** [all-recursive] Error 1,0,0
+irc-dev,2015-04-14 11:39:00,0,-0.842157,"anyhow, my hunch is that such an attack is extremely difficult to pull off in practice",0,0
+irc-dev,2015-05-03 22:10:00,0,-0.817724,it slows things down (very slightly),0,0
+irc-dev,2015-08-21 06:38:00,1,0.719936,"What was the contents, I can re-add it if you feel its worth while",1,0
+irc-dev,2015-05-31 23:10:00,0,-0.440335,(which influenced me to mention it at http://www.reddit.com/r/Bitcoin/comments/37zsv5/question_does_the_increase_to_20mb_mean_that_tor/... so maybe I'm part to blame),0,0
+irc-dev,2015-06-10 12:29:00,0,-0.345422,"would it be evil to add a boolean arg (getraw=true) to ""sendmany"" which then would enforce sendmany to send back the signed transation as hex and the used fee within the json response?",0,0
+irc-dev,2015-08-04 04:10:00,0,-0.832582,im assuming they fuck it up even worse than unix systems do,0,0
+irc-dev,2015-03-12 10:08:00,1,0.505642,give me a tick,1,0
+irc-dev,2015-01-09 14:33:00,1,0.617398,logdb and BIP32 kinda go hand-in-hand IMO,1,0
+irc-dev,2015-01-14 08:34:00,0,-0.676151,"but have 10.9 and 10.7 vm. Will test there soon (afk for some mins, sry)",1,0
+irc-dev,2015-04-20 15:35:00,0,-0.684072,bah i could do that,1,0
+irc-dev,2015-05-07 10:27:00,1,0.599531,it's a museum piece,1,0
+irc-dev,2015-07-13 13:48:00,0,-0.305799,"petertodd: yup, i would expect that in the package approach you either combine the child with both parents into a single package, or don't combine them at all",1,0
+irc-dev,2015-01-19 16:40:00,0,-0.649,and no WoT?,0,0
+irc-dev,2015-12-21 20:18:00,0,-0.533734,"The confusion that is happening is that a lot of users, and >= 90% of all the mining power, are waiting on ""the core devs"" to make decisions, and, IIUC, the core devs (or at least some of them!?) think that they don't have that right or responsibility.",0,0
+irc-dev,2015-04-27 13:26:00,0,-0.626439,probably not,0,0
+irc-dev,2015-02-13 00:45:00,0,-0.626271,"equally, replace-by-fee actually gets rid of some DoS attacks on ANYONECANPAY transactions",1,1
+irc-dev,2015-01-17 08:23:00,1,0.33953,coryfields i totally trust your experience. I have no expertise in release management and probably would fall into these last-minut-bug-creation-changes.. :),1,0
+irc-dev,2015-11-24 08:11:00,1,0.743528,SW has a significant impact in the way signatures are passed around,1,0
+irc-dev,2015-11-26 17:49:00,1,0.568141,(Phonetyping) I'll have a look at it soon. But IIRC we need a solution that does not mark evicted tx as conflicted.,0,0
+irc-dev,2015-06-28 05:16:00,1,0.533411,but we should probably take that talk to wizards :p,1,0
+irc-dev,2015-04-21 18:57:00,0,-0.808866,"I delete the old rcs when I upload a new one, that's not random.",0,0
+irc-dev,2015-05-01 02:54:00,0,-0.630686,Now it seems that make hangs while generating the files that are supposed to be built with hexdump. Here is the line:,0,0
+irc-dev,2015-07-14 20:53:00,0,-0.897448,notice the exit(1). Ouch.,0,0
+irc-dev,2015-01-07 15:10:00,0,-0.659244,"sipa: right, it wasn't. I just forced it to :P",0,0
+irc-dev,2015-03-13 16:21:00,0,-0.453465,"that's not how bitcoin core's wallet deals with it, though",0,0
+irc-dev,2015-02-24 11:55:00,0,-0.375699,Cryo: our patch?,0,0
+irc-dev,2015-01-27 00:29:00,0,-0.317447,I mean used a lot during IBD,1,0
+irc-dev,2015-06-01 18:32:00,0,-0.45852,cfields: i know CFBundleDisplayName from iOS. This could work... let me check,1,0
+irc-dev,2015-01-09 07:11:00,0,-0.522669,so it's CS too now.,1,0
+irc-dev,2015-08-16 16:21:00,0,-0.293294,olalonde: the bitcoin foundation has no involvement in bitcoin development,0,0
+irc-dev,2015-05-06 08:14:00,0,-0.579303,"midnightmagic: can you please try to combine pulls, having 7 pulls open w/ gitian sigs confuses me",0,0
+irc-dev,2015-03-14 01:30:00,0,-0.384548,dgenr8: credit where credit is due: the sudoku example is from andreas antonopoulos,1,1
+irc-dev,2015-12-21 20:13:00,0,-0.459624,"this may result in economic changes, but those are already happening",1,0
+irc-dev,2015-02-09 13:29:00,1,0.801489,"remembering the original command line seems smart, but is also a good way to generate confusion, as it is unexpected persistence",0,0
+irc-dev,2015-07-22 00:21:00,0,-0.823143,and would be suppper disruptive,0,0
+irc-dev,2015-04-14 09:55:00,1,0.831116,"gmaxwell, if you're talking about services like heroku, they allow you to run compiled languages, they just don't give official support https://devcenter.heroku.com/articles/third-party-buildpacks so theoretically you could run bitcoind there if you wanted to (but it will be probably easier for you to just run it somewhere else)",1,0
+irc-dev,2015-04-18 10:26:00,1,0.788792,"Ah I see, bitcoinj has a BlockChainListener, I guess this will come in handy",1,0
+irc-dev,2015-11-29 08:22:00,0,-0.379459,there is a very short period of time when bitcoind knows what the previous valid block is but doesn't know what transactions can go in the next one,0,0
+irc-dev,2015-07-12 16:05:00,0,-0.568172,wumpus: your -dev release announcement has an invalid signature O.o,0,0
+irc-dev,2015-05-19 12:53:00,0,-0.435584,and they are all in the latest blocks,1,0
+irc-dev,2015-07-09 06:30:00,0,-0.437075,as in std::sort?,0,0
+irc-dev,2015-03-08 20:31:00,0,-0.845737,so there might be something broken here,0,0
+irc-dev,2015-07-19 13:10:00,0,-0.345733,https://github.com/bitcoin/secp256k1 compilation crashes on OpenBSD 5.7.,0,0
+irc-dev,2015-04-25 21:36:00,1,0.595517,"PRab: well, it's mostly around big changes to the build system",1,0
+irc-dev,2015-12-21 20:15:00,1,0.750548,"There's a conflation happening between ""I/we oppose a certain change because I/we think it wouldn't be a good idea technically"" and ""I/we have no authority or right to make changes"".",0,0
+irc-dev,2015-04-29 09:32:00,0,-0.395767,"wumpus: if we can't use dns, i would just use oneshot seeding",0,0
+irc-dev,2015-04-07 10:29:00,0,-0.293471,but I'm not that worried.,1,0
+irc-dev,2015-12-14 21:21:00,0,-0.72569,sorta confused about jl2012's pending email then,0,0
+irc-dev,2015-07-20 19:12:00,0,-0.584611,"oh hang on... so if we replaced by feerate only, then the pattern of large tx replaced by small replaced by large again is naturally limited, as each time the large tx is a bit smaller or it can't fit into the mempool",0,0
+irc-dev,2015-06-07 06:28:00,0,-0.791934,"gmaxwell: I'm not sure if that's a bug or not, I don't know JSON/RFC4627's escaping rules, but it shouldn't hurt",0,0
+irc-dev,2015-08-19 11:11:00,0,-0.465191,(for isStandard at least),1,0
+irc-dev,2015-07-17 07:01:00,0,-0.496486,wumpus: running `casher fetch` took longer than 180 seconds and has been aborted,0,0
+irc-dev,2015-04-16 19:43:00,0,-0.339426,"sipa, i guess i could just walk mapBlockIndex",1,0
+irc-dev,2015-01-06 17:18:00,0,-0.87244,i ignored the other compiler warning because that had nothing to do with me,0,0
+irc-dev,2015-04-23 08:56:00,1,0.714334,just kind of curious,1,0
+irc-dev,2015-03-13 23:32:00,1,0.720086,do you want to calculate the chance for exactly one solution,1,0
+irc-dev,2015-02-11 14:59:00,0,-0.470025,"I will look more into this, it's a development server so *many* pieces of software run at the same time there.",1,0
+irc-dev,2015-12-21 20:38:00,0,-0.337877,"silvaedium, cut it out. It's ok to bundle your thoughts.",0,0
+irc-dev,2015-06-22 14:23:00,0,-0.677752,"yeah, we really need to make it impossible to mine on SPV headers...",1,0
+irc-dev,2015-12-21 20:24:00,1,0.485286,There is a lot of effort that goes into this,1,0
+irc-dev,2015-04-29 09:25:00,1,0.702443,Lluis2015: great!,1,1
+irc-dev,2015-01-22 00:51:00,0,-0.490126,ComputePriority has absolutely no reason to be in primitives,0,0
+irc-dev,2015-12-21 21:21:00,0,-0.704899,social attacks?,0,0
+irc-dev,2015-07-22 09:47:00,1,0.840836,Luke-Jr: yes. I think that's a good idea.,1,1
+irc-dev,2015-07-02 13:23:00,0,-0.310007,Also not in 0.11 (which will be released soon).,0,0
+irc-dev,2015-03-19 17:46:00,0,-0.566307,and block v3 is over 10%,0,0
+irc-dev,2015-11-14 10:23:00,0,-0.780532,"so the specific concern that we're worried about here with unverified forwarding is that an invalid block will be produced by a mistake, and then forwarded to an attacker who is just waiting for such a block, and has an attack already laid out that uses that block, yes?",0,0
+irc-dev,2015-05-03 19:27:00,0,-0.168916,"Okay. Sorry. Though you have just read that last line. But your right. Especially for a small c library (or binary), a frameworks adds little and produces probably some overhead.",1,0
+irc-dev,2015-03-17 14:44:00,0,-0.684048,"that's a bug, i guess",0,0
+irc-dev,2015-05-07 10:45:00,1,0.715647,10000010 is more accurate,1,1
+irc-dev,2015-02-20 03:23:00,1,0.902486,"oh, cfields I misunderstood, thanks",1,0
+irc-dev,2015-03-14 19:22:00,0,-0.407567,there's a new brand of physical bitcoins launching soon (that's what this is for). This is for the initial low value coins.,1,1
+irc-dev,2015-03-17 07:12:00,0,-0.335828,"hwta happens if accidentally a transaction has a change output below the magic mimimum of 5400 satoshis or so? Will it still not be relayed by most nodes? That's something that has been buggin me quite a bit, and the limit in general.",0,0
+irc-dev,2015-11-14 18:17:00,1,0.431607,sipa: it makes sense,1,1
+irc-dev,2015-11-29 08:09:00,0,-0.691606,"jtoomim: sure, from the notify. But it's extra work and things to get right (and people have gotten that stuff wrong in the past. :( )",0,0
+irc-dev,2015-08-07 07:06:00,0,-0.737041,What are the risks when you expose a non hardened child pubkey?,0,0
+irc-dev,2015-03-03 22:40:00,0,-0.293735,"belcher: no, txindex will not make it faster.",1,0
+irc-dev,2015-07-06 10:05:00,0,-0.626441,"not sure it's necessary to add "" or string"" to the error message",0,0
+irc-dev,2015-12-01 12:09:00,1,0.583213,so yes for whitelisted peers it's enabled now,1,0
+irc-dev,2015-11-12 19:37:00,0,-0.493521,"jgarzik: please don't do that, I'm chairing",0,0
+irc-dev,2015-03-27 08:40:00,1,0.471395,it makes sense thay way,1,1
+irc-dev,2015-04-05 00:04:00,1,0.683553,let's see if it builds now,1,0
+irc-dev,2015-04-25 15:14:00,0,-0.58778,"cfields_: when you get a chance, is there any reason hooking up travis to our own public forks of bitcoin wouldn't work now? i've been doing it for a while with mine and haven't found any concrete problems",1,0
+irc-dev,2015-02-17 10:09:00,0,-0.875668,the code is terrible too,0,0
+irc-dev,2015-02-02 22:46:00,0,-0.358133,"What date should I use, for the address in `bitcoin-cli importwallet`? I know exactly which block the address was first seen",1,0
+irc-dev,2015-11-12 19:22:00,1,0.477161,Once opt in RBF is there wallet will have smarter policies in this area,1,0
+irc-dev,2015-02-03 08:34:00,1,0.768838,"but a bonus to heartbeat tracking, it could double as an aimbot!",1,0
+irc-dev,2015-07-18 22:19:00,0,-0.427061,midnightmagic: lots of problems with imap and large (many thousands) of emails,0,0
+irc-dev,2015-01-09 18:20:00,0,-0.337006,i know how to learn about new block announcements. just an irc channel would have been convenient at the moment,1,0
+irc-dev,2015-03-12 01:43:00,0,-0.688138,"ugh, this is spammed in every channel",0,0
+irc-dev,2015-01-21 16:42:00,0,-0.662211,miners are not privileged in any way when it comes to a hardfork,0,0
+irc-dev,2015-11-12 09:02:00,0,-0.556786,but it's a strange issue,0,0
+irc-dev,2015-04-14 10:41:00,0,-0.403043,sipa: that would be helped along by isolation,1,0
+irc-dev,2015-01-02 06:13:00,0,-0.876033,Diablo-D3: sorry for mocking you yesterday I misunterpreted what you said to me. I'd forgotten you're a squishie deep down.,0,0
+irc-dev,2015-01-10 21:37:00,0,-0.305332,"I'm a bit confused by ""--suite precise"" in a Debian VM.",0,0
+irc-dev,2015-08-07 07:01:00,1,0.856131,"I think the way we implemented it in Ninki is ok, no xpriv export and users can exchange xpubs and derive addressees for each other, it's a fantastic scheme, I wouldn't regret introducing it",1,1
+irc-dev,2015-12-03 20:24:00,0,-0.51164,I guess you could add an explicit proxyrandomize=force option that disconnects if it can't do it,0,0
+irc-dev,2015-01-14 07:59:00,0,-0.401207,anyone here knows the detail of the conflict with the new openssl update?,1,0
+irc-dev,2015-03-14 11:41:00,1,0.784576,likely :),1,1
+irc-dev,2015-03-18 01:31:00,0,-0.616247,"stevedekorte: I was probalby being a bit unclear there - federated sidechians are, merge-mined sidechains are worse than a blocksize increase IMO",0,0
+irc-dev,2015-12-14 19:12:00,0,-0.681252,StephenM347: There was an email thread about this on bitcoin-dev last month: http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-November/011713.html,0,0
+irc-dev,2015-03-04 16:45:00,1,0.813003,"oh ok, see what you mean... ok thanks",1,1
+irc-dev,2015-05-21 16:31:00,0,-0.374846,where is the updated fees for the 0.10 client?,0,0
+irc-dev,2015-12-18 16:16:00,0,-0.525001,he'll eventually get tired,0,0
+irc-dev,2015-04-07 23:33:00,0,-0.465526,specifically if i change a flag under the CNode object without acquiring the cs_vNodes lock am i going to be causing problems,0,0
+irc-dev,2015-01-09 08:26:00,0,-0.451028,this is the nerd equivalent of customized phone cases.,0,0
+irc-dev,2015-12-14 06:08:00,1,0.445725,"Luke-Jr, btckdrak: if we could have a sub-section in bitcointalk, that only allows dicussion of ideas from the bitcoin-dev list, would that be helpful?",1,0
+irc-dev,2015-02-05 11:19:00,1,0.749044,wumpus: heh,0,0
+irc-dev,2015-03-02 18:02:00,0,-0.85017,"not at a computer now, sorry",0,0
+irc-dev,2015-05-29 07:38:00,1,0.865131,"""So, to allow a randomization of the program binary itself, the PIE mode was created. It works very much like what PIC does for dynamic libraries. The difference is that a PLT is not created, instead PC-relative relocation is used.""",1,0
+irc-dev,2015-07-15 15:05:00,0,-0.613348,"Wegglesworth: strange, that should work",1,1
+irc-dev,2015-07-09 04:59:00,0,-0.92057,"yeah, I can't think of any use for it right now unfortunately; maybe someone else here knows something I'm missing",1,0
+irc-dev,2015-11-14 10:50:00,0,-0.36341,but you can encode the block as a list of merkle nodes of different levels,1,0
+irc-dev,2015-06-06 22:57:00,0,-0.636961,gmaxwell: what filesystems don't support sparse files? O.o could be optional,0,0
+irc-dev,2015-01-17 08:29:00,1,0.672019,"i used the system one to make it easier for builds, but ultimately I'd prefer that you are able to build as releases are built, even if it's a bit more hassle",1,0
+irc-dev,2015-12-28 00:13:00,0,-0.893953,im probably confusing things,0,0
+irc-dev,2015-06-01 18:36:00,0,-0.666563,wumpus: ah. Okay. Maybe i was only playing around with self-built bitcoin-qt's on windows.,1,0
+irc-dev,2015-11-05 19:17:00,0,-0.821254,I love the CNB change but that seems lower priority than making 0.12 rock solid otherwise - miners can patch up,1,1
+irc-dev,2015-01-19 17:08:00,0,-0.632534,I wish there was a chain with PGP public keys and associated email addresses,1,0
+irc-dev,2015-04-08 01:18:00,0,-0.649658,"StephenM347: it's a single byte, so what you're asking has nothing to do with sighash flags, you're asking if it'll accept a DER signature with an extra null at the end. This is non-standard but I think it will be decoded and verify. Why?",0,0
+irc-dev,2015-04-22 08:02:00,0,-0.866126,Here is a little writup when I fell pray to click-click blindness once http://people.xiph.org/~greg/roadkill/roadkill.html,1,0
+irc-dev,2015-03-27 14:39:00,0,-0.647401,wumpus: maybe the tests in 5503 shouldn't use pure utility functions then,0,0
+irc-dev,2015-06-23 07:39:00,0,-0.473022,there is no safe way to manage keys in a bitcoind wallet :p,0,0
+irc-dev,2015-01-14 09:07:00,1,0.93276,"michagogo, have a quick look at https://github.com/bitcoin/bitcoin/issues/5657 ... the balance value fields is a good thing to look at",1,1
+irc-dev,2015-07-13 12:50:00,0,-0.721623,sipa: huge nests of unconfirmed txs are pathological anyway,0,0
+irc-dev,2015-04-01 19:52:00,0,-0.441481,"cfields, hmm.. but as it looks it's a custom/own aes implementation. Or does it compare agains openssl?",0,0
+irc-dev,2015-04-28 13:14:00,0,-0.534689,ACTION wants irc seed back :P,1,0
+irc-dev,2015-03-13 20:07:00,0,-0.376376,"the only thing that comes up in the text file is: ""noop""",0,0
+irc-dev,2015-04-22 08:03:00,0,-0.701929,"""meh, i won't have kids anyway""",0,0
+irc-dev,2015-02-06 19:01:00,0,-0.421934,gmaxwell: it's signed by a CA that older systems don't have in their stores,0,0
+irc-dev,2015-05-30 09:02:00,0,-0.351276,"Luke-Jr: No, I mean most pool now at 750KB",1,0
+irc-dev,2015-07-13 02:41:00,0,-0.591235,leakypat: do recognise that doing that just isn't all that safe...,0,0
+irc-dev,2015-04-15 15:45:00,1,0.651233,can anybody point me in the direction of share validation in p2pool? specifically that the coinbase pays to the previous shares,1,0
+irc-dev,2015-02-12 06:03:00,0,-0.777328,"i can't seem to find anything about that, do you have a link to what you mean?",0,0
+irc-dev,2015-02-13 11:28:00,1,0.614237,"If someone has a lot of time, it'd be interesting to go back and see if all our old versions are still reproducible",1,0
+irc-dev,2015-07-06 09:32:00,1,0.893708,make ValueToAmount accept strings as well,1,0
+irc-dev,2015-01-09 13:55:00,0,-0.79856,"I mean, I don't know if anything actually is broken",0,0
+irc-dev,2015-12-04 04:17:00,0,-0.382322,"Prattler, is that an issue only with 0.12?",0,0
+irc-dev,2015-05-03 22:10:00,0,-0.434213,and protects against some obscure attacks,1,1
+irc-dev,2015-02-06 18:55:00,0,-0.802617,is there anything being wget'd that's not having it's hash checked? i don't think so,0,0
+irc-dev,2015-02-20 10:24:00,0,-0.762917,"null: well, to be fair, I have to disable AVX for glibc specifically anyway since stupid valgrind doesn't understand it",0,0
+irc-dev,2015-02-20 00:03:00,0,-0.510385,jtimon: thats all gone.,0,0
+irc-dev,2015-02-17 10:52:00,0,-0.295914,dario_: basically anything except javascript has stricter types than json :),1,1
+irc-dev,2015-11-23 20:37:00,0,-0.863041,skyzer: spinning up another bitcoin core with the same transactions in it will be just as slow.,0,0
+irc-dev,2015-01-24 01:00:00,0,-0.754392,since there's no clean way to cancel a request from a slow peer,0,0
+irc-dev,2015-11-18 00:03:00,0,-0.740317,maybe there is a block that is getting marked as invalid that would otherwise be the best block,0,0
+irc-dev,2015-05-13 14:24:00,1,0.537816,"ok, makes sense",1,0
+irc-dev,2015-02-20 20:04:00,0,-0.39483,"Luke-Jr: not at all, thought the same thing when i saw that PR",0,0
+irc-dev,2015-01-07 15:01:00,0,-0.858992,I thought I saw somewhere that shipped it with a default config and had an install script that randomized a password or something,1,0
+irc-dev,2015-01-29 12:50:00,0,-0.657377,"akstunt600: this isn't bitcoin 101, and i wasn't really talking to you",0,0
+irc-dev,2015-02-26 00:22:00,1,0.437141,of course,1,0
+irc-dev,2015-01-13 11:04:00,1,0.154682,"wumpus, yes. i'll switch to python. Bash is cool but takes endless time.",1,0
+irc-dev,2015-07-01 07:32:00,0,-0.584691,jonasschnelli: OH I see the problem,1,0
+irc-dev,2015-06-17 18:03:00,0,-0.700374,cfields: sipa is having weird troubles with lxc,0,0
+irc-dev,2015-07-20 19:19:00,1,0.466698,morcos: yes,1,0
+irc-dev,2015-01-01 10:47:00,0,-0.531232,"wumpus: I'd shared it before, it was a leveldb checksum fail.",1,0
+irc-dev,2015-08-18 10:38:00,1,0.798417,"gmaxwell: and cheers regarding the tip above RE solvability, is there any where I can read up on that method? I think I understand it, but if you have a reference that'd be great for solidifying the process :)",1,1
+irc-dev,2015-08-17 20:26:00,0,-0.517271,It uses this utility class: https://github.com/bitcoin/bitcoin/blob/0.11/src/script/interpreter.cpp#L943,1,0
+irc-dev,2015-04-10 07:05:00,0,-0.302735,"yea, the existing names area alread burdensome.",0,0
+irc-dev,2015-04-07 07:08:00,1,0.694708,wumpus: what's there to document? the files themselves are perfectly well documented,1,0
+irc-dev,2015-02-03 09:47:00,0,-0.508214,is looks like a crash during test_bitcoin,0,0
+irc-dev,2015-02-22 04:21:00,0,-0.625742,I don't follow. How do you include children without it being cpfp?,0,0
+irc-dev,2015-07-20 18:39:00,1,0.46329,"dgenr8: yeah, that's what everyone is assuming - value of a tx has to take into account what it needs to get mined first",1,0
+irc-dev,2015-01-16 12:05:00,1,0.615685,"midnightmagic: last time I had an issue it was because I hadn't set USE_LXC correctly, and michagogo gave a hand. but yeah, it's pretty smooth here too. although last time we were looking at /dev/kvm and that shouldn't be a concern at all if I do use LXC only",1,0
+irc-dev,2015-03-01 22:51:00,0,-0.705359,"I'm struggling to determine what I should set --with-field, --with-bignum, and --with-scalar to.",0,0
+irc-dev,2015-04-15 16:37:00,0,-0.676461,adlai: someone can always withhold attack and its impossible to prevent it in that model (or the current bitcoin mining in general),0,0
+irc-dev,2015-07-17 07:19:00,0,-0.617925,just not sure if the script can trip the assertion,0,0
+irc-dev,2015-07-21 13:02:00,0,-0.75856,"forget about the clean history please, I wish I had never said that",0,0
+irc-dev,2015-05-19 14:21:00,0,-0.35905,"they take just the subject fields to make people interested, then the rest is advertisement",1,0
+irc-dev,2015-01-09 12:02:00,0,-0.563857,"bedeho: nope, that feature was never secure so it's been removed permanently",0,0
+irc-dev,2015-01-08 12:54:00,0,-0.649794,LXC isn't a full VM,0,0
+irc-dev,2015-05-18 16:10:00,1,0.894375,ok thanks. I'm just trying to build a bitcoin graphing tool and hence presently parsing the whole blockchain into a db,1,0
+irc-dev,2015-05-30 06:43:00,1,0.836252,and i understood that diversity is good too,1,1
+irc-dev,2015-01-03 02:30:00,1,0.825788,"midnightmagic: welp you can try reducing the window sizes, thats just a quick tweak.",1,0
+irc-dev,2015-11-02 15:06:00,0,-0.745137,"When I'm ingesting a block, I query the db for a UTXO that gets spent in that block. So it is in the db before I'm done ingesting the block.",1,0
+irc-dev,2015-02-17 10:10:00,0,-0.133783,"OpenSSL does with >400,000 very hard to audit, largely untestable, largely undocumented code.. what we only need about 10,000 lines of very straight forward and clear code for. As TLS things go its fine (? fine might not be the right word for anything TLS...) but it isn't what we need in Bitcoin.",0,0
+irc-dev,2015-06-22 16:10:00,1,0.684883,"jtimon: yes, I'm still planning on that. I'm just doing it one chunk at a time. #6242 is the current one, i need to get that one rebased and fixed up, then I'll move on to the next one. Once no other dependencies remain, I'll move the stateful stuff out",1,0
+irc-dev,2015-03-16 21:23:00,1,0.546404,BlueMatt: if you could write that up for the mailing list that'd be great,1,0
+irc-dev,2015-12-14 21:12:00,0,-0.0159563,"gmaxwell: I'm sorry if you read that from what I wrote? I'm re-reading it now, I thought it was pretty clear that I wasn't criticising him.",0,0
+irc-dev,2015-06-18 04:49:00,0,-0.697165,using HTTP 404 would be a layer violation,0,0
+irc-dev,2015-12-29 10:48:00,0,-0.518129,2015-12-25 01:51:39 InvalidChainFound: invalid block=0000000000000000077152ba5cde04dbc4afa243ad33022ab2d2cbb3c28dd9c4,0,0
+irc-dev,2015-05-11 00:03:00,1,0.900219,"hulkhogan_: it's cool, thx for testing. in future please run `make check` on any pull requests as a sanity check before submitting them tho",1,0
+irc-dev,2015-12-15 03:45:00,0,-0.570325,"Though, I don't agree with this softfork. It doen't make anything better",0,0
+irc-dev,2015-03-11 14:49:00,0,-0.566188,"Luke-Jr: indeed .... 0.10, 0.6.3, 0.7.2, 0.8, 0.9 .... I think what only counts is the genproclimit when cpu-mining",1,0
+irc-dev,2015-01-26 12:37:00,0,-0.757884,"eh invalidateblock and reconsiderblock are in the RPC table *twice*, that can't be good",0,0
+irc-dev,2015-01-14 07:46:00,1,0.729819,...wow.,1,0
+irc-dev,2015-11-23 20:30:00,0,-0.676789,"We are getting about 20-30 timeouts a day, where 'sendmany' takes more than 30 seconds",1,0
+irc-dev,2015-07-09 11:57:00,0,-0.60404,but not by very much,0,0
+irc-dev,2015-07-21 12:50:00,0,-0.496852,"because we need the least risky solution that works, on short term",1,0
+irc-dev,2015-07-20 20:01:00,1,0.526603,CodeShark: would help if you told your peers what the total fee/size of the package was,1,0
+irc-dev,2015-12-02 12:31:00,1,0.579771,I think I've probably not given fee floors an adequate amount of thought because they don't address the issue that it's easy for miners to use huge pools then support mega super blocks (just buy a 24 core 256 GB ram host for the uberpool); so they'd potentially support a pretty low floor to max out that income; and the verifiers that don't see that income (and are decenteralized rather thana few mega,0,0
+irc-dev,2015-06-21 15:35:00,0,-0.612426,"Luke-Jr: uh, what",0,0
+irc-dev,2015-12-03 19:27:00,1,0.471057,"wumpus: getting there, discussion went faster than i expected. 1 sec :)",1,1
+irc-dev,2015-04-04 23:51:00,0,-0.535294,"I see your point, but why would anyone run bitcoind on such a device",0,0
+irc-dev,2015-07-28 18:40:00,0,-0.54379,"sipa: I force rebased, force pushed, then realized that now my change was taking consensus::checktxinputs out of the caching and closed",0,0
+irc-dev,2015-03-27 00:07:00,1,0.828773,Oh. Sweet,1,1
+irc-dev,2015-02-09 13:50:00,0,-0.718237,"it's meant for regression testing, not for running persistently in the background",0,0
+irc-dev,2015-01-09 13:30:00,1,0.795729,just reading that page. :),1,0
+irc-dev,2015-02-22 16:07:00,0,-0.762662,kanzure: something bitcoin people often miss is that in 99% of situations no-one gives a shit that you involved trust,0,0
+irc-dev,2015-04-28 20:31:00,1,0.746654,ok sounds good,1,1
+irc-dev,2015-08-16 02:27:00,0,-0.563279,but a bug,0,0
+irc-dev,2015-03-25 01:02:00,0,-0.476693,"Luke-Jr, bitpay actually seems to reuse 100% of their addresses...",1,0
+irc-dev,2015-11-01 19:55:00,0,-0.592627,"in any case, I don't see any real option for the moment except to back out that change.",0,0
+irc-dev,2015-03-18 08:26:00,1,0.08795,I guess with the rise of webmail no one has a really good mua anymore. :),1,1
+irc-dev,2015-04-14 10:57:00,0,-0.353007,CodeShark: policy is what node operators could change without breaking consensus,1,0
+irc-dev,2015-02-07 04:57:00,0,-0.588682,but it doesn't increment the count if the address isn't already in the map - so how do the candidate addresses get into the map?,0,0
+irc-dev,2015-01-06 13:51:00,1,0.82707,And have the inputs be decrement-only? Interesting,1,0
+irc-dev,2015-12-17 13:59:00,0,-0.621302,average blocksize smoothed over 7 days looks like a bunch of spam spikes. Unsure of how much baseline growth there really is: https://blockchain.info/charts/avg-block-size?showDataPoints=false&timespan=&show_header=true&day...,0,0
+irc-dev,2015-12-03 20:13:00,1,0.217127,"wumpus: when connecting to the proxy, you give it a list of acceptable forms of auth. we give it ""none or user/pass"". It then replies with its preference and you use that mode. My testing shows that it always replies with ""none"" if you list ""none"" as an option",1,0
+irc-dev,2015-01-16 18:52:00,0,-0.577648,so do we need to worry about all the 0.9 clients then?,0,0
+irc-dev,2015-07-17 20:31:00,0,-0.61569,"oh... I think generally more people are happier that their addresses are private, than want to be visible, sorry",0,0
+irc-dev,2015-02-02 20:30:00,0,-0.42818,"well it's not really opimization, it uses less memory at the expense of performance",0,0
+irc-dev,2015-04-02 18:07:00,0,-0.872618,"I think the biggest risk is that they tarpit our tip-- e.g. they INV a new block to you but never send it and make you suffer the timeout--, but nothing about your change influences that.",0,0
+irc-dev,2015-06-11 01:45:00,0,-0.693215,"""Why do I need Windows just to get that?""",0,0
+irc-dev,2015-11-20 01:22:00,1,0.795729,figured it out!! :-),1,1
+irc-dev,2015-08-18 08:24:00,0,-0.733725,"If I have Q = dG, P = cG and R = bG, and I then sign two different messages using (d + c)P and (d + b)R respectively, and I accidentally get duplicate r-values for both signatures, and an attacker knows c,b,Q... do I face the same risk as if I had signed with d both times?",1,0
+irc-dev,2015-03-16 22:03:00,1,0.779318,:),1,1
+irc-dev,2015-07-14 11:42:00,0,-0.781837,"oh! i misread you, thought you meant enable it. you may have a point",1,1
+irc-dev,2015-12-20 15:05:00,0,-0.555771,or said address.... but i am not seeing its history in list,0,0
+irc-dev,2015-05-19 09:29:00,1,0.0955168,"sorry 'bout that. I'll have a look tomorrow, probably just need to change it the same way we changed the first one",1,0
+irc-dev,2015-01-07 03:50:00,0,-0.734905,how about using the world's biggest bloom filter to prevent address reuse? it wouldn't add much to storage requirements,0,0
+irc-dev,2015-08-19 14:00:00,0,-0.417889,"There've been several changes which had thresholds built in, that got widespread consensus and went in.",1,0
+irc-dev,2015-06-24 08:10:00,0,-0.86851,"Luke-Jr: I dont know, I'm just trying to think out loud to plan ahead and not get caught up in an unexpected quagmire",0,0
+irc-dev,2015-02-20 08:27:00,1,0.503039,seems like it might need a help to differentiate,0,0
+irc-dev,2015-04-07 20:33:00,0,-0.815468,"ok; sorry, can't help you then",0,0
+irc-dev,2015-01-06 01:23:00,1,0.774153,start bitcoind with -rpcport=N and use whatever you like :),1,1
+irc-dev,2015-07-12 19:11:00,0,-0.692643,"the latter is also possible, and better, but harder",1,0
+irc-dev,2015-05-20 00:16:00,1,0.73538,'welcome,1,1
+irc-dev,2015-03-25 17:28:00,0,-0.716425,"morcos: bit of code added to avoid adding it twice, pull request updated",1,0
+irc-dev,2015-01-21 07:27:00,0,-0.619335,20000 / 150 / 60 = more than 2 minutes to download a block,0,0
+irc-dev,2015-04-08 04:41:00,1,0.754958,One thing to think about is we don't want honest nodes to be so polite that agressive ones can get comparative overrepresentation.,0,0
+irc-dev,2015-05-03 04:58:00,1,0.607295,that makes sense- actually the console being exposed in the ui seems almost reasonable now within that context,1,1
+irc-dev,2015-12-04 02:32:00,0,-0.380067,"gmaxwell: makes so much more sense to get the SPV miners to not publish invalid blocks, even if they search for them",1,1
+irc-dev,2015-05-18 16:10:00,1,0.660347,and finding quite a few holes in my understanding,0,0
+irc-dev,2015-01-13 12:27:00,0,-0.72958,kurzalevski: (at least with bitcoin core's wallet),1,0
+irc-dev,2015-04-23 09:59:00,1,0.750587,they can relay perfectly fine,1,1
+irc-dev,2015-03-19 21:23:00,0,-0.479909,jonasschnelli: nope,0,0
+irc-dev,2015-11-12 19:18:00,0,-0.689856,morcos: not fundimentally hard but unnecessary code and computional complexity.,0,0
+irc-dev,2015-03-03 21:03:00,0,-0.637015,"which is such a long term procedure that i don't think it should be done transparently, even of it could be",0,0
+irc-dev,2015-01-20 09:05:00,1,0.502662,"at runtime, yes",1,0
+irc-dev,2015-02-03 08:42:00,0,-0.795107,But I think the leveldb missing one is an user issue.,0,0
+irc-dev,2015-06-11 14:22:00,0,-0.860678,it's a pain in the ass,0,0
+irc-dev,2015-04-30 13:45:00,0,-0.704327,"oh, that's odd -- your paste in the pull for 5981 showed a different failure point. perhaps there are two issues?",0,0
+irc-dev,2015-05-03 04:59:00,1,0.781101,"hehe, nice",1,1
+irc-dev,2015-05-05 02:53:00,1,0.68221,I love the hell out of postgre,1,0
+irc-dev,2015-03-04 16:34:00,0,-0.439131,there isn't a way to automatically generate new addresses on the server without the private key is there?,1,0
+irc-dev,2015-05-14 08:54:00,1,0.557109,"what does ""move"" rpc call actually do? it says it's not blockchain, so it's literally just updating internal variables?",1,0
+irc-dev,2015-08-08 01:55:00,1,0.448535,phantomcircuit: yup,1,0
+irc-dev,2015-11-19 14:58:00,0,-0.327953,"wumpus: you can add to your low memory gist that unless you have reason to , don't ever call getblocktemplate.",0,0
+irc-dev,2015-05-03 06:52:00,1,0.439202,Having some users test them out could be helpful,1,1
+irc-dev,2015-12-17 16:43:00,0,-0.32749,"BIPs are required for a) P2P network protocol changes b) consensus changes, for the other changes it's allowed to write an informative BIP but not required",1,0
+irc-dev,2015-07-15 21:08:00,0,-0.316325,"sipa, harmless yes, annoying, also yes",0,0
+irc-dev,2015-08-06 19:46:00,0,-0.75252,"coryfields_, can you please move trivial tree forward so I can PR some trivial change to it?",1,0
+irc-dev,2015-02-03 14:59:00,0,-0.550154,"db.cpp can also move to legacywallet, we don't need it anymore for the new wallet",0,0
+irc-dev,2015-04-17 14:13:00,1,0.73298,"sure, well we'll see what i come up with... :)",1,0
+irc-dev,2015-01-09 14:41:00,1,0.633445,"so, ultimately, question is: can I put a node on the network that just submits transactions? or is there a protocol requirement to do other things? if so, what are those other things? and is there some docs I can look at for this?",1,0
+irc-dev,2015-04-14 04:56:00,1,0.529349,"People copying my work into random altcoins which then went and pumped themselves as ""Better than bitcoin"" on the basis of it has pretty much left me ready to leave the ecosystem more than once.",0,0
+irc-dev,2015-06-22 08:09:00,0,-0.702471,user's manual shouldn't deal with low-level concepts at all,0,0
+irc-dev,2015-04-02 10:55:00,1,0.527769,"yes, but well",1,0
+irc-dev,2015-04-10 10:31:00,1,0.669518,but we could make some self-contained repository though that makes this easy to set up,1,1
+irc-dev,2015-11-21 20:49:00,0,-0.515635,"benjyz1, never heard of",0,0
+irc-dev,2015-02-21 02:34:00,0,-0.958828,"I want to buy bitcoins is there anyone can help me? I have never bought them before, i want to buy bitcoins so i can pay for this service i want to use online, unfortunately they only accept bitcoins :(",1,0
+irc-dev,2015-06-21 07:32:00,0,-0.456682,well I suppose our timing was good.,1,1
+irc-dev,2015-02-27 13:06:00,1,0.701937,"in any case, just building it without the commitment in blocks is interesting and also useful (not as useful), and doesn't have the suicidepactness of being a network rule.",0,0
+irc-dev,2015-05-03 07:29:00,1,0.776465,It should make for a good discussion,1,1
+irc-dev,2015-06-17 07:46:00,0,-0.616619,"anyhow - the problem has always been that the inputs need to remain locked, or released",0,0
+irc-dev,2015-07-01 07:55:00,0,-0.400794,shouldn't that structure be made immutable?,1,0
+irc-dev,2015-07-29 15:47:00,0,-0.470463,"""1-of-1 multisig"" is simply a P2PKH through P2SH I suppose?",0,0
+irc-dev,2015-06-01 06:51:00,0,-0.442249,probably it needs to be rebased again,1,0
+irc-dev,2015-01-12 11:54:00,1,0.66047,Maybe if you uploaded your results cfields could take a look at them and see what's different,1,0
+irc-dev,2015-02-11 15:06:00,1,0.465832,magicien: the proper thing to do is to 1) read how openssl bottlenecks for randomness 2) monitor randomness bits availability under load,1,0
+irc-dev,2015-02-10 09:58:00,0,-0.610254,can we get in the habbit of asking for better commit messages? both the commit message and the PR text there tell me nothing about what motivated the change.,0,0
+irc-dev,2015-01-13 11:13:00,1,0.816961,png could be totally suitable for editing (see adobe fireworks),1,1
+irc-dev,2015-02-22 16:04:00,0,-0.774674,"kanzure: instant global consensus is prohibited by the speed of light; global consensus over every participants ""everything"" has O(n^2) scaling and falls over eventually",1,0
+irc-dev,2015-01-20 15:38:00,0,-0.49948,"wumpus: well, there's a short period where the buttons gray out",1,0
+irc-dev,2015-07-11 22:24:00,0,-0.648836,Probably shouldn't bypass that,0,0
+irc-dev,2015-08-04 21:54:00,0,-0.869357,its somewhat sporadic but seems to be worse when theres more transactions,0,0
+irc-dev,2015-11-08 23:52:00,0,-0.614921,Because no pools using them,1,0
+irc-dev,2015-01-13 00:30:00,0,-0.732577,now I just have to figure out why rc3 isn't building.,0,0
+irc-dev,2015-07-27 05:43:00,0,-0.745856,by publishing proof of cheating,0,0
+irc-dev,2015-11-01 19:51:00,0,-0.888211,"No, I'm saying that it needs to be fixed soon as a soft fork or the eventual solving will be disruptive, and may involve funds loss for people.",0,0
+irc-dev,2015-12-29 14:05:00,0,-0.470057,it keeps from disrupting people who are using testnet for other things,1,0
+irc-dev,2015-11-05 19:21:00,1,0.715072,most importantly to make CreateNewBlock work properly,1,0
+irc-dev,2015-12-24 05:25:00,0,-0.63853,"Taek: yes, soft fork will cause temporary competition and ultimately an orphan",0,0
+irc-dev,2015-11-05 19:40:00,0,-0.651809,one thing i noticed from sdaftuars data is that a small bump doesn't make the problem go away,0,0
+irc-dev,2015-05-26 21:22:00,1,0.699209,"yea, it benchmarks fine.",1,0
+irc-dev,2015-03-24 09:51:00,0,-0.895358,but much harder if backups are difficult,0,0
+irc-dev,2015-01-07 15:08:00,1,0.475716,michagogo: and travis is hanging my browser with some javascript loop,1,0
+irc-dev,2015-04-20 14:46:00,0,-0.562608,why would you not derive hardened keys on the fly?,0,0
+irc-dev,2015-06-06 10:08:00,1,0.798713,for useful values of always,1,0
+irc-dev,2015-01-06 16:41:00,1,0.508005,or rather: ask that service how frequently they're fine,1,0
+irc-dev,2015-01-09 11:32:00,0,-0.404105,"jonasschnelli, your OS X icons look a bit smaller than mine...",0,0
+irc-dev,2015-08-11 02:01:00,0,-0.35736,also git submodules. i've received lots of complaints about those...,0,0
+irc-dev,2015-01-19 14:27:00,0,-0.516426,"(the result contains already packages information, so we can skip everything outside /home/ubuntu)",1,0
+irc-dev,2015-12-13 10:32:00,1,0.629112,"actually, I guess that should be a supported configuration. maybe.",1,0
+irc-dev,2015-02-23 07:52:00,0,-0.887727,"koobs: first try building with clang 3.5/3.3. If they also fail, you can ignore everything i've said as we're talking about different bugs",1,0
+irc-dev,2015-04-14 10:21:00,0,-0.671606,"yes, regrettably the original protocol did not provision an extra 256 bits in the block header to use for whatever we might not have known about then",0,0
+irc-dev,2015-02-24 05:46:00,1,0.479327,"koobs: i don't think so, thanks",0,0
+irc-dev,2015-06-18 07:08:00,0,-0.424265,"(retransmitting transactions as-is doesn't help much, as some nodes can still have the transaction in the mempool so won't re-relay it)",0,0
+irc-dev,2015-04-22 08:18:00,0,-0.646424,git revert --abort might be your best hope at that point,0,0
+irc-dev,2015-01-19 15:27:00,0,-0.629297,I'm not looking at anything currently,0,0
+irc-dev,2015-04-03 12:21:00,0,-0.920541,it seems rather flaky and the way it behaves doesn't always match the documentation.,0,0
+irc-dev,2015-01-10 21:38:00,1,0.191061,iwilcox: The way I read that is that bootstrap builds an Ubuntu VM. I assume you get a vm inside of a VM.,1,0
+irc-dev,2015-06-29 13:24:00,0,-0.74608,wumpus: bah.,0,0
+irc-dev,2015-06-11 14:40:00,0,-0.513983,We are using the INEXACT constants when it comes to rescheduling.,1,0
+irc-dev,2015-02-22 15:56:00,0,-0.507366,petertodd: thank you for making replace-by-fee I don't know why everyone is crying about it,1,0
+irc-dev,2015-07-11 22:23:00,0,-0.312624,"Yeah, Travis makes sure the bins exist",1,1
+irc-dev,2015-01-16 07:36:00,0,-0.389033,"DigitalURN, network splits into 2 pieces",1,0
+irc-dev,2015-03-03 23:13:00,0,-0.744122,"belcher, You can import your watchonly addresses with a recent timestamp, limiting the rescanning",1,0
+irc-dev,2015-07-01 11:51:00,1,0.710905,But im not sure if one command for all purposes is the best way.,0,0
+irc-dev,2015-01-19 16:38:00,0,-0.454647,"hearn: is this ""email cert"" thing more widely used than PGP keys or something? I've never seen them in the wild",0,0
+irc-dev,2015-04-30 12:34:00,0,-0.600489,"jonasschnelli: it looks like the problem is the Java exception just above that line. That looks like it caused the comparison tool to stop working without returning failure, so Travis killed the build after 10 minutes of non-output.",0,0
+irc-dev,2015-01-02 15:29:00,0,-0.381719,Luke-Jr: likely,1,0
+irc-dev,2015-05-27 06:44:00,0,-0.755372,"indeed, it has nothing to do with networking, that isn't even active by that point",1,0
+irc-dev,2015-04-06 16:09:00,0,-0.777445,cfields does #5975 conflict with your stuff on checkpoints? maybe makes it easier?,1,0
+irc-dev,2015-03-12 10:25:00,1,0.722275,Luke-Jr: \o/ :D,1,0
+irc-dev,2015-07-13 19:55:00,0,-0.315216,"if you have some fee rate where < 20% of transactions with that fee rate or lower are confirmed within 144 blocks, then maybe that should be the minimum feerate",1,0
+irc-dev,2015-03-05 20:07:00,0,-0.660771,"so as long as we exclude it from setBlockIndexCandidates, i think this will work?",1,0
+irc-dev,2015-01-13 00:39:00,0,-0.711647,"I probably drive you guys nuts, but I tend to use https://github.com/bitcoin/bitcoin/compare/v0.10.0rc2...v0.10.0rc3 to compare 2 tags.",1,0
+irc-dev,2015-03-13 19:56:00,0,-0.340617,now you have a new one and need to squash...,1,0
+irc-dev,2015-11-05 19:17:00,0,-0.504128,"also the CreateNewBlock rewrite is only for miners, but it improves total time from about 3 seconds down to 150ms now on a 300MB mempool",1,0
+irc-dev,2015-06-28 09:40:00,0,-0.316225,Diablo-D3: it happens once in a while,1,0
+irc-dev,2015-02-10 00:58:00,0,-0.844046,"dgenr8: block discouragement is 51% attack, if anything",0,0
+irc-dev,2015-07-20 19:19:00,0,-0.840142,so you might leave in signficantly worse parents,0,0
+irc-dev,2015-03-13 15:09:00,1,0.854595,it's a nice project. Do you have a page for it or a Git repo?,1,1
+irc-dev,2015-02-26 12:54:00,0,-0.382422,BSoD is the only way to go *fond memories of Windows ME*,1,0
+irc-dev,2015-03-20 15:42:00,1,0.656263,since RPC supports sighash type it'll be fine,1,1
+irc-dev,2015-03-11 20:58:00,1,0.454695,"you can get a payment request via non-interactive transports like NFC tags or emails, and the payment_url is optional",1,0
+irc-dev,2015-04-11 16:07:00,0,-0.553032,"phantomcircuit: uhm, its somewhat complicated, but I wanted a proof that I was the owner of the public address in question",0,0
+irc-dev,2015-04-01 21:11:00,0,-0.595221,"or i think we should perhaps make it a little less easy to accidentally do that, but can't say i thought to much on how easy that is to do...",1,0
+irc-dev,2015-03-12 10:27:00,1,0.807108,"koobs: well, if you're offering.. :D",1,0
+irc-dev,2015-01-07 14:46:00,0,-0.763359,"only just now noticed the bug, not sure who is at fault (whether dnsseed, or bitcoinj, or btcd)",0,0
+irc-dev,2015-07-06 06:49:00,1,0.458025,"remove, or replace by sensible tests as I mention above",1,0
+irc-dev,2015-06-26 05:25:00,0,-0.791406,"side note: looks like it didn't save my wallet anywhere, and didn't warn me, so I just lost bitcoins :x",0,0
+irc-dev,2015-04-07 20:01:00,0,-0.847243,sipa: it seems like the code that processes orphan transactions doesn't work correctly if an orphan tx had inputs missing from 2 separate tx's,0,0
+irc-dev,2015-08-04 20:18:00,0,-0.626608,and maybe we'd more quickly find closer to the ideal defaults for people to use,1,1
+irc-dev,2015-04-21 19:18:00,0,-0.480837,kanzure: i mean there can be usecases where you mix cold/hot coins. But i would guess its uncommon. OnlyWatchOnly or NonWatchOnly makes more sense to me.,0,0
+irc-dev,2015-08-04 20:45:00,0,-0.532298,updatetip simply means that a new block is coming in,1,0
+irc-dev,2015-12-25 10:57:00,0,-0.638366,perhaps it won't get used,0,0
+irc-dev,2015-11-02 15:53:00,1,0.702579,"mcelrath, modern OS and, underneath, modern storage handle scatter/gather just fine",1,0
+irc-dev,2015-01-12 11:45:00,1,0.871342,"michagogo, thanks",1,1
+irc-dev,2015-01-09 07:13:00,1,0.842424,"petertodd, it's pretty easy to teach people python",1,1
+irc-dev,2015-04-28 12:40:00,1,0.885638,dns has the advantage of scaling incredibly easily,1,1
+irc-dev,2015-11-14 10:46:00,1,0.795729,jtoomim: the total interior nodes in a hashtree is equal to the size of the tree. There is just a constant factor in there because transactions are variable sizes. :),1,0
+irc-dev,2015-07-22 23:42:00,0,-0.745768,"jtimon: it's just the two pull-reqs, nothing more",1,0
+irc-dev,2015-05-18 23:10:00,0,-0.604895,I get a segmentation fault on the test driver when running 'make check' (works under gcc),0,0
+irc-dev,2015-07-09 20:45:00,0,-0.301679,skyzer: charge a flat fee similar to your average?,0,0
+irc-dev,2015-11-20 17:38:00,0,-0.489793,"I don't specially like .size() == 0 either, as said I would prefer a boolean, but that was the less disrupting thing I could do",0,0
+irc-dev,2015-01-14 10:49:00,0,-0.703042,"iirc it is trivially fetchable, just not legal",0,0
+irc-dev,2015-05-23 21:16:00,0,-0.679497,"Luke-Jr: as far as i know, there's no way for 'make clean' + 'make' to fix a PIC build problem, unless the config had changed in between",1,0
+irc-dev,2015-05-03 06:18:00,1,0.795729,Luke-Jr: wrt kernel/disk; go see the paper I cited. :),1,1
+irc-dev,2015-11-29 07:25:00,0,-0.298228,yelling would be quite out of character for me,0,0
+irc-dev,2015-01-09 07:36:00,0,-0.500103,It's in the same category as Java I guess.,1,0
+irc-dev,2015-04-01 02:19:00,0,-0.664715,why wouldn't i ransom the block?,0,0
+irc-dev,2015-01-29 12:05:00,0,-0.311848,'we'?,0,0
+irc-dev,2015-03-13 22:02:00,0,-0.712556,I think we'll never get to connectblock anymore unless it is.,0,0
+irc-dev,2015-06-11 11:28:00,1,0.560258,harding: ok i'll just give it a try!,1,1
+irc-dev,2015-11-12 19:19:00,0,-0.538897,"so thats the fewest changes from now to a semi-consistent state. more ripping out can then be done in 0.13. if we're not going to rip it out, we should do more now to make it work better, but sounds like we are",1,0
+irc-dev,2015-04-15 14:57:00,0,-0.508261,"in the end it doesn't really matter, I suppose",1,0
+irc-dev,2015-06-11 14:50:00,1,0.585152,"*shrug* i'd disagree, you already rely on closed source radio firmwares and so on. the GCM client library is just a thin shim that listens for intents anyway, i thought",0,0
+irc-dev,2015-02-17 10:06:00,1,0.499791,"but since it's becoming part of the mbed platform, digia's likely to support it.",1,0
+irc-dev,2015-01-19 18:04:00,0,-0.517809,"why would you store the blockchain in RAM though? RAM is still much more expensive than disk, or even ssd.",0,0
+irc-dev,2015-04-01 18:38:00,1,0.947362,"so paytxfee it is, thanks a lot gavinandresen :)",1,1
+irc-dev,2015-04-02 18:04:00,0,-0.741629,"gmaxwell: yep makes sense. do you think it's problematic to have them share in serving the last 288? now that we have the block download timeouts, the damage is limited, but still not nothing",0,0
+irc-dev,2015-04-09 09:31:00,0,-0.631496,"hmm, bitcoin core asumes OP_RETURN is followed by chunks of varint+string when parsing the script -> ASM? but that's just an asumption to make 'something' out of it I suppose (considering this TX does not follow that: https://gist.github.com/rubensayshi/2f8a2b50100345f278c2 )",1,0
+irc-dev,2015-02-17 10:14:00,0,-0.649674,bugs that happen to be usable as backdoors are more convient anyway,1,0
+irc-dev,2015-04-25 15:26:00,1,0.670578,"sinetekVI: we link libstdc++ static. glibc really can't be used statically, so we maintain a set of back-compat modules for it",0,0
+irc-dev,2015-05-14 06:57:00,0,-0.790414,that doesn't seem right.,0,0
+irc-dev,2015-05-04 01:15:00,1,0.652075,I do see the advantage to having the two write ups combined.,1,1
+irc-dev,2015-07-15 15:09:00,0,-0.340776,looks like that may have worked http://puu.sh/j0a3n/47a9dc9d3e.png,1,1
+irc-dev,2015-06-10 10:32:00,0,-0.723782,"well i should qualify that with, I might have trashed it",0,0
+irc-dev,2015-03-26 17:52:00,0,-0.757316,cfields: didn't help,0,0
+irc-dev,2015-04-01 13:58:00,1,0.784576,yeah :),1,1
+irc-dev,2015-03-11 14:56:00,1,0.438936,"Luke-Jr, I have a 25GH BFL on a Raspberry (worth nothing now) and will probably try that if 0.10 doesn't start spitting coins out fast enough :)",1,0
+irc-dev,2015-04-12 00:37:00,1,0.519945,"bitcoin's rules were also set in a ""centralized"" way, by satoshi",1,0
+irc-dev,2015-04-19 22:28:00,0,-0.477738,Don't assume there wasn't a specification; could just be that it was never given to you. :P,1,0
+irc-dev,2015-11-02 18:05:00,0,-0.111986,"We've had linux corruption too. If I can prove it's not flaky hardware, I'll report it.",0,0
+irc-dev,2015-01-19 17:29:00,0,-0.688257,it's better to lose your privacy than your bitcoins,1,0
+irc-dev,2015-06-23 16:49:00,0,-0.374645,"I created a P2P transaction submission tool, don't remember who was asking for this a while ago: https://github.com/laanwj/bitcoin-submittx",1,0
+irc-dev,2015-02-27 10:26:00,0,-0.390178,Luke-Jr: agree there; it's inevitable to set defaults if we want the code to behave reasonably,1,0
+irc-dev,2015-05-18 19:05:00,0,-0.339083,"Luke-Jr: ""tell him to fix that shit"" - Marshall Long :P",0,0
+irc-dev,2015-02-06 23:31:00,0,-0.701596,no worries,1,0
+irc-dev,2015-02-18 10:23:00,0,-0.926787,"although in a sense this already happens; the log tail is printed when the comparison tool fails, however due to all the lock/unlock spam we may be missing the reason *why* it gets disconnected",0,0
+irc-dev,2015-03-27 15:03:00,0,-0.349148,it's the 2log of the sum of total work,1,0
+irc-dev,2015-06-17 20:13:00,0,-0.329764,which in most cases is base-2 floating point,1,0
+irc-dev,2015-04-20 17:54:00,0,-0.618834,but that's not the error that's actually stopping me. The error is the multiple patterns bit,0,0
+irc-dev,2015-06-09 22:59:00,0,-0.631191,there will be an rc2 in any case,1,0
+irc-dev,2015-12-14 17:01:00,0,-0.690667,there are several bugs on this page https://data.bitcoinity.org/bitcoin/block_version/5y?c=block_version&r=week&t=a,0,0
+irc-dev,2015-03-09 18:37:00,0,-0.490436,"at least encapsulating the behavior/usage as a first step, then actually nuking the globals can be done much easier",1,0
+irc-dev,2015-03-03 21:39:00,0,-0.582521,"morcos: yes, thus the logic that pruning should not start until the node is past some work threshold. (and see my earlier comments about not thinking causing spiky disk use during IBD being that interesting)",1,0
+irc-dev,2015-02-11 05:03:00,0,-0.628877,autoreconf2.50: aclocal failed with exit status: 1,0,0
+irc-dev,2015-02-07 05:01:00,0,-0.543361,"but without it, I'm never seeing that my external IP address is discovered",0,0
+irc-dev,2015-04-27 14:55:00,1,0.762756,getblockchaininfo is correct,1,0
+irc-dev,2015-04-28 21:31:00,0,-0.307977,Great. 0.10 (and git master) crash almost instantly at start if you start a new node with gen=1.,1,0
+irc-dev,2015-03-16 22:32:00,0,-0.847159,"maaku: sigh... why are we constantly waiting for ""in full"" apps to be written, rather than short, easily understandable, demos?",0,0
+irc-dev,2015-02-02 08:56:00,0,-0.703656,"so no, it won't sit there, you'll have to submit it after the nLocktime",0,0
+irc-dev,2015-03-05 12:44:00,0,-0.718992,Let's remove the accounting stuff for 0.11... *duck*,0,0
+irc-dev,2015-01-28 18:48:00,0,-0.31417,"yes, it's non-mandatory-script-verify-flag, strange, I remember it differently",0,0
+irc-dev,2015-06-23 11:36:00,0,-0.857137,"Hm, did gmaxwell assign BIP100? Not seeing it on the ML (might have missed it)",0,0
+irc-dev,2015-03-14 19:18:00,0,-0.763846,the plan is to have at most around $50 worth of bitcoins (at current exchange rate) in each. Most will likely only have $10.,1,0
+irc-dev,2015-07-02 00:56:00,0,-0.313464,"my impression is just to leave the init and all alone, and just make that table static. but you really ought to get sipa's opinion, join #secp256k1",1,0
+irc-dev,2015-03-14 20:44:00,0,-0.505711,"That spec was defined for a very narrow usecase, printing private keys on tiny hologram stickers steal on coins. _maybe_ it was excusable for that application. though who knows, BIP38 had basicall zero peer review, and no cryptographic review, it was basically published by accident (the author's emails to the list went into a black hole)",1,0
+irc-dev,2015-11-29 19:46:00,0,-0.610661,do you mind filing a bug for that?,0,0
+irc-dev,2015-07-17 19:48:00,0,-0.673765,it's probably deadlocked then,0,0
+irc-dev,2015-05-19 14:26:00,1,0.795729,but i think it's up to Diablo-D3 now. :),1,0
+irc-dev,2015-02-06 00:49:00,1,0.816985,"ak_: pretty sure he meant repo root. if he's building from /, he can help himself :)",1,1
+irc-dev,2015-05-06 06:09:00,0,-0.505872,"fanquake, all OS's have them. Just a question of what header & name.",1,0
+irc-dev,2015-03-24 09:11:00,1,0.489882,"and the fact that you only need a small amount of ""secure"" storage",1,1
+irc-dev,2015-01-29 09:24:00,0,-0.618043,"jonasschnelli: also, I've used Macs before, and the UI experience is just terrible, but that's a topic for another channel",0,0
+irc-dev,2015-05-01 17:48:00,0,-0.840529,"but i think we should make a distinction between ""if you do this wrong, you will inevitably create a forking risk"", and ""bugs here may affect convergence""",1,0
+irc-dev,2015-08-21 21:44:00,0,-0.572616,and i've only got like 200000 files,1,0
+irc-dev,2015-05-03 19:50:00,1,0.0292341,"jgarzik: that's fine. It should just start syncing from the last validated block. The wallet must keep track of ""his bestblock"".",1,0
+irc-dev,2015-12-16 12:03:00,0,-0.450659,umm.. can BitcoinD have memory fragmentation issues?,0,0
+irc-dev,2015-11-17 03:36:00,0,-0.846165,"kenrestivo: though it's only in 0.12 that you can run the wallet in combination with pruning, so for baron i guess it won't work yet",0,0
+irc-dev,2015-04-14 10:38:00,0,-0.405469,it turns out that the development process itself is at least as critical as the protocol,0,0
+irc-dev,2015-05-28 16:34:00,1,0.801299,I launch my C++ function with it and I look if the output is correct,1,0
+irc-dev,2015-03-24 22:26:00,0,-0.764627,and i think it has been a very big mistake to use the p2p network for 3,0,0
+irc-dev,2015-12-20 10:37:00,0,-0.75467,"users were never generally familiar with them, so it makes no sense to claim we need it to be familiar",0,0
+irc-dev,2015-01-03 22:37:00,0,-0.44125,"sdaftuar: we should still continue when the next block on the network shows up, however.",1,0
+irc-dev,2015-11-14 10:11:00,0,-0.649605,"jtoomim: bitcoin.pdf assumes no such thing exists as a ""spv mining network"", because it assumes that the cost of validating is negligible.",0,0
+irc-dev,2015-02-02 23:35:00,0,-0.687918,does git have the latest?,0,0
+irc-dev,2015-02-20 17:10:00,0,-0.324168,who needs a RNG anyway,0,0
+irc-dev,2015-02-12 09:38:00,0,-0.50004,I don't recall the exact details.,0,0
+irc-dev,2015-05-31 23:11:00,0,-0.862315,"then he should either ignore that nonsense or respond to the reddit comment, it's disingenuous to bring up such strawman points on the mailing list and certainly doesn't try to build consensus.",0,0
+irc-dev,2015-11-22 17:17:00,0,-0.775183,could we say that if BitcoinD takes more than 1GB memory then the network is really compromised and we're waiting for a DoS to pass??,0,0
+irc-dev,2015-07-15 13:08:00,1,0.608439,I can form a PR if you like,1,0
+irc-dev,2015-12-02 11:43:00,0,-0.499548,"that's the point, you get the economic majority to fork off",1,0
+irc-dev,2015-12-17 20:17:00,0,-0.67387,Me too. Bye y'all!,1,0
+irc-dev,2015-02-10 19:42:00,1,0.131007,"I assumed he meant exchanges specifically aren't in topic, but I understand now! Quitting. Hope I didn't disturb your channel. Thanks again!",0,0
+irc-dev,2015-01-05 10:23:00,0,-0.642497,Support both backend would make things complicate... (more effort),0,0
+irc-dev,2015-12-02 12:14:00,0,-0.391344,"tulip only if all miners are using validation-free mining, and only if the risk of using validation-free mining is zero",1,0
+irc-dev,2015-01-20 08:48:00,0,-0.787057,"cfields, hmm.. get `block in <main>': error looking up commit for tag f0172bf91ef521a0155cf1f0ae9fde1ab02157b3 (RuntimeError)",0,0
+irc-dev,2015-12-17 03:11:00,0,-0.688854,mempools never fully clear out,0,0
+irc-dev,2015-05-08 01:04:00,0,-0.458165,"amiller, is that the ""eclipse"" attack?",0,0
+irc-dev,2015-01-22 14:08:00,1,0.664105,"Yeah, it was old maybe 4.3 or so. Anyway, you see my point right? We should probably make that message a bit more friendly.",1,1
+irc-dev,2015-03-11 16:55:00,0,-0.647828,"I have another branch failing in my repo, i was about to submit a PR for it (fixes bug in InvalidateBlock) but just wanted to be sure I understood the travis failure",0,0
+irc-dev,2015-03-11 19:29:00,0,-0.823619,Raystonn: I think that you have a blurry idea. Have you worked the details? E.g: how would new clients verify that the current state of the chain is correct?.,0,0
+irc-dev,2015-05-27 08:32:00,1,0.0220558,gmaxwell: ah. Okay. Chart missed a timestamp somewhere. :),1,0
+irc-dev,2015-04-25 16:34:00,0,-0.877136,Gah; I switched back to #bitcoin-dev without realizing it. Sorry everyone.,0,0
+irc-dev,2015-03-11 17:02:00,1,0.521075,they should be moved out yes,0,0
+irc-dev,2015-01-20 09:11:00,0,-0.652916,"meh, readelf -a /usr/lib/i386-linux-gnu/libQtNetwork.so.4|grep NEEDED doesn't show an openssl or crypto dependency either. So this may be a false track.",0,0
+irc-dev,2015-03-11 14:03:00,0,-0.372287,hmm.. okay. maybe #5696 needs rebase even if there are no merge conflicts (@jtimon),0,0
+irc-dev,2015-03-11 14:48:00,0,-0.882902,"wumpus: ew, why? :|",0,0
+irc-dev,2015-11-20 17:25:00,0,-0.575003,it's an argument that can be empty,0,0
+irc-dev,2015-02-22 05:54:00,0,-0.597333,in the sense of damaged ram?,0,0
+irc-dev,2015-01-26 22:27:00,0,-0.848351,"""< null> i was just reading it in adreas' book and it was talking about the problems for clients which don't yet understand compressed keys because they wouldn't knot what address to look for"" < for those who haven't read it, that part of ""masting bitcoin"" is particularly bad, expect lots of confused people in here with questions about that",0,0
+irc-dev,2015-08-07 08:14:00,0,-0.742033,Won't send me any blocks at all,0,0
+irc-dev,2015-04-10 14:40:00,0,-0.548505,this is the ugly part https://github.com/jtimon/bitcoin/commit/0a37fee9e909f9b723319411948d8bd0e7c8c70e,0,0
+irc-dev,2015-08-23 13:15:00,0,-0.742842,"I assumed that block number always goes upwards but apparently that's wrong. 2016+ block deep reorg on bitcoin network would imply its death, though",0,0
+irc-dev,2015-03-03 22:59:00,1,0.625835,"gmaxwell, ok so we agree",1,1
+irc-dev,2015-11-14 11:00:00,0,-0.60392,(else someone tells they have a 'block' and feed you megabytes of linenoise which the whole network spams itself with),0,0
+irc-dev,2015-06-24 21:53:00,0,-0.631496,that's the problem,0,0
+irc-dev,2015-01-11 15:37:00,0,-0.29361,"well, I don't know where it originates",0,0
+irc-dev,2015-02-09 14:16:00,0,-0.678252,"L_Cranston_Shado, you mean deleting branches on your remote?",0,0
+irc-dev,2015-04-14 02:29:00,0,-0.484268,oh I didn't put testnet in my conf there. That was mainnet. Let me do that again,0,0
+irc-dev,2015-02-17 07:25:00,0,-0.614316,"(which is still a lot, but at least excludes refactors and trivial changes)",1,0
+irc-dev,2015-03-29 22:22:00,0,-0.591606,i guess technically you cant rely on that,0,0
+irc-dev,2015-05-01 13:19:00,0,-0.473173,"sipa: frankly, i haven't given that much thought. Up to this point, I've only been concerned with decoupling things. I think trying to engineer a logical file/dir structure before that's done will just cause more shuffling later",0,0
+irc-dev,2015-02-12 15:38:00,1,0.748136,"yes, that's a fair assumption",1,1
+irc-dev,2015-04-28 19:22:00,0,-0.563332,(at least not in DHT),0,0
+irc-dev,2015-03-05 23:27:00,1,0.571507,maaku: IMO blob224 makes sense,1,0
+irc-dev,2015-08-13 12:01:00,1,0.728164,localhost is no problem. But i'm pretty sure people like to run a SPV smartphone client together with a trusted full node.,1,0
+irc-dev,2015-06-18 08:27:00,0,-0.298346,it'd have to work similar as the estimation in CCoinsViewCache,1,0
+irc-dev,2015-02-22 11:25:00,0,-0.548636,this will not end well,0,0
+irc-dev,2015-06-17 07:43:00,0,-0.542065,Would it really be a stupid idea to add a flag (returnraw=<boolean> or similar) for sendtoaddress / sendmany?,0,0
+irc-dev,2015-06-11 02:19:00,0,-0.63065,not actually impossible,1,0
+irc-dev,2015-11-02 10:26:00,0,-0.0706193,"btcdrak: +1 on group hallucination, after Luke-Jr sipa and gmaxwell said there was a problem, I was more in a hurry to undesrtand some deployment consequences than in actually undesrtanding why it was a problem: ""I can do that tomorrow"", I thought. My learned lesson is that I probably trust these guys too much :p",0,0
+irc-dev,2015-03-28 05:44:00,0,-0.346432,"gmaxwell, assuming the BIP62 softfork happens what mutation issues are there still?",0,0
+irc-dev,2015-02-22 16:17:00,0,-0.785491,here's an idea.. what about a coffee subscription instead of paying every time? that would eliminate the requirement for zeroconf or whatever.,1,0
+irc-dev,2015-02-12 07:10:00,1,0.632643,just did my first multisig tx on testnet that works neat. couple questions. 1) is there some way to now do equiv of `listunspent`for it somehow or maybe using some online service like blockchain.info? 2) this example doesn't put a fee. just put a fee field when doing the createtransaction? and umm... how much fee? :),1,0
+irc-dev,2015-02-23 13:06:00,0,-0.597498,bitcoin-cli getnetworkinfo gives startup time IP addresses. the actual are changed many times since then. this causes impossible incoming connections.,0,0
+irc-dev,2015-05-13 14:12:00,0,-0.629186,wumpus: this commit message is more or less wrong: https://github.com/bitcoin/bitcoin/commit/ff325032678df25920fe0345701f714ad2f21c61#diff-ef76fd667... i think theres no chance to change this. I guess we won't do git rebases -i on master?,0,0
+irc-dev,2015-07-13 19:29:00,0,-0.72226,"and i think they should go in at the same time. the janitor requires a bit of thinking to make sure it doesn't suffer from free relay issues, but i think fundamentally if you have a way of sending transactions that are accepted into mempools but unlikely to be mined we're in trouble, and kicking them eventually can't be worse than holding on to them forever",1,0
+irc-dev,2015-08-02 01:54:00,0,-0.52816,denisx: it tries to guess number of cores available,1,0
+irc-dev,2015-07-27 09:54:00,1,0.57917,"would a in mem height index like std::map<int(height), std::vector<WalletTx*> > be enough, scalable? IMO theres no need for disk persistence.",0,0
+irc-dev,2015-06-26 14:39:00,0,-0.744315,"jonasschnelli: if we change the gitian output around a bit, will that mess up your current automated build stuff?",0,0
+irc-dev,2015-04-14 12:19:00,0,-0.63306,I think you can just remove it and call CreateNewBlock directly instead,1,0
+irc-dev,2015-01-19 15:47:00,0,-0.437936,"Hah, no.",0,0
+irc-dev,2015-04-14 10:21:00,0,-0.898546,but it's not really exciting change if it just makes things less 'ugly',0,0
+irc-dev,2015-02-06 18:01:00,1,0.63129,I'm not even entirely sure what functionality exists within the test_bitcoin binary but I would like to be able to run it now :),0,0
+irc-dev,2015-03-12 13:36:00,1,0.480965,would be nice if it just stored commits inside the main repo,1,0
+irc-dev,2015-06-26 13:30:00,1,0.904801,that's funny,1,0
+irc-dev,2015-07-27 11:06:00,0,-0.455303,We need sidechains sooner than later,0,0
+irc-dev,2015-01-13 08:43:00,0,-0.475856,"PRab: on my phone ATM so can't easily check the hashes and signature, but LGTM",1,0
+irc-dev,2015-02-01 05:34:00,0,-0.586211,Unspecified vulnerability in HP System Management Homepage (SMH)? O.o;;,0,0
+irc-dev,2015-06-11 01:46:00,0,-0.697993,"not saying it's a bad idea, saying how do you extend that to the other OSes that Bitcoin can run on",1,0
+irc-dev,2015-12-09 21:04:00,0,-0.529153,Virtually never.,0,0
+irc-dev,2015-04-14 04:41:00,0,-0.906202,"e.g., ripple's bullshit",0,0
+irc-dev,2015-11-12 16:56:00,1,0.916044,Great! Nice to hear I'm on the right track.,1,1
+irc-dev,2015-03-17 16:12:00,1,0.780023,"well if you have a long runnign node, its easily enough to leave a couple extra blockfiles hanging out there right?",1,0
+irc-dev,2015-11-13 22:53:00,0,-0.582031,but escalating hashrate costs other people money,0,0
+irc-dev,2015-04-14 05:15:00,1,0.507472,like a legit bot-net,1,0
+irc-dev,2015-06-29 13:48:00,0,-0.416109,leakypat: the genesis block?,0,0
+irc-dev,2015-02-24 06:08:00,1,0.793814,"cfields: thanks, i thought perhaps post static linking (if that were the case)",1,0
+irc-dev,2015-07-20 23:24:00,0,-0.719258,you end up potentially having to recalculate all the nSumFees and nSumSizes all over again from scratch,0,0
+irc-dev,2015-05-03 22:10:00,1,0.617811,"well, right",1,0
+irc-dev,2015-01-14 10:22:00,0,-0.477503,"(although pinning the toolchain, e.g. gcc and binutils would make a lot of sense)",1,0
+irc-dev,2015-04-26 14:22:00,1,0.78539,I feel specially bad about 5595 because it is a slower but cleaner approach to what luke wanted to do,0,0
+irc-dev,2015-03-13 14:59:00,0,-0.46617,"I am concerned about the latest ""Sibil"" attacks (https://bitcointalk.org/index.php?topic=978088.msg10756505#msg10756505). I would be willing to kick-in $75/month (along with any co-sponsors) to a credible effort to enhance privacy of BTC at protocol level, increase fungibility of BTC, and prevent such attacks in the future.",0,0
+irc-dev,2015-08-17 09:24:00,0,-0.756218,what a mess :p,0,0
+irc-dev,2015-02-13 11:31:00,0,-0.692428,yeah that'd violate their account ToS i think,0,0
+irc-dev,2015-01-01 14:14:00,0,-0.717979,having encountered that many times before when I put bitcoin on the novena a day ago I wasn't even phased for a moment by the libtool error (and didn't even think to suggest we make it have a better one),1,0
+irc-dev,2015-04-15 02:01:00,0,-0.635607,"gmaxwell, faster block propagation would seem to be a reason, limiting connections too much can increase the chance of orphans it would seem",1,0
+irc-dev,2015-06-11 14:55:00,0,-0.301237,"hearn, is it can happen with VISA also",1,0
+irc-dev,2015-11-26 19:42:00,0,-0.764385,"btcdrak: i completely understand that, but that is not a reason... i have a feeling people only recently started actually looking into it seriously",1,0
+irc-dev,2015-04-29 13:08:00,0,-0.794822,for what it's worth i just tried convincing the dfly people bitcoin's code isn't total garbage,1,0
+irc-dev,2015-05-31 21:34:00,1,0.597253,"gmaxwell: yes, there are clearly tradeoffs. The catch is if the limit remains then bitcoin can no longer grow.",0,0
+irc-dev,2015-02-10 06:12:00,0,-0.799099,"i am going to write a paper regarding a novel form of attack against bitcoin, called the irc blockbuster attack, where you waste developer time",0,0
+irc-dev,2015-05-20 06:41:00,0,-0.0327093,"Luke-Jr: heh, you following up on jgarzik's comment? I think you could get around that by sendingthe inputs mostly to fees, and creating a block that throws away some of those fees",1,0
+irc-dev,2015-06-24 09:08:00,0,-0.759843,"rubensayshi: why do you assume you're stuck, and not them forked off?",0,0
+irc-dev,2015-04-06 14:33:00,1,0.824562,"harding: hah, great",1,0
+irc-dev,2015-01-20 17:04:00,0,-0.379672,a subwallet is where they call an address a wallet?,0,0
+irc-dev,2015-02-20 10:30:00,0,-0.569238,Luke-Jr: I'd like to disagree,0,0
+irc-dev,2015-05-28 16:37:00,0,-0.76592,"maaku: it's ""obvious"" what the intent is, but I'd like to nail down specifics before I criticise it further :)",0,0
+irc-dev,2015-01-06 16:25:00,0,-0.352742,and complicates reasoning about our internal state,0,0
+irc-dev,2015-03-17 22:25:00,0,-0.349599,gets rid of the mtr on top,1,0
+irc-dev,2015-07-17 21:11:00,0,-0.591324,"from my limited vantage point, i think the problem is that in mail delivered from bitcoin dev, the from field does not contain the *email address* of the sender, even though this address shows up in the archive.",0,0
+irc-dev,2015-02-23 12:52:00,1,0.821414,stonecoldpat : thanks,1,1
+irc-dev,2015-03-04 16:36:00,0,-0.67718,"someone told me ""use a deterministic wallet, public key on the server which generates addresses, master private key offline which generates private keys for spending them"" but I have no idea what any of that means :/",0,0
+irc-dev,2015-02-06 14:48:00,0,-0.655359,there just isnt ./configure in pwd,0,0
+irc-dev,2015-05-19 10:08:00,0,-0.722388,nup doesn't compute,0,0
+irc-dev,2015-03-16 00:06:00,0,-0.909192,"assertion fails, etc",0,0
+irc-dev,2015-06-03 14:18:00,0,-0.787917,hearn: they're gone for good :(,0,0
+irc-dev,2015-01-29 01:29:00,0,-0.411005,"phantomcircuit: every time you do that, it creates a bitcoin transaction that pays someone to kill a kitten",0,0
+irc-dev,2015-06-22 14:20:00,1,0.779318,:),1,0
+irc-dev,2015-05-03 06:47:00,1,0.930941,"Yea that's definitely looking like the best bet. I've been writing up a review of the UX of Bitcoin core, do you think this is something that mailing list should discuss once my review is completed?",1,0
+irc-dev,2015-01-07 16:08:00,0,-0.546053,kaliuseruser: the blocks from the last <x> days don't give you the information you need for a node,0,0
+irc-dev,2015-01-14 10:41:00,0,-0.644298,wumpus: well underpowered boards isn't really our problem...,0,0
+irc-dev,2015-06-13 21:56:00,0,-0.436614,"phantomcircuit, <chmod755> prevara is bosnian for scam",0,0
+irc-dev,2015-11-04 03:50:00,0,-0.522448,"gmaxwell: SW is the separation of the data and the witness, aka the transaction and the signatures. Won't that cause major disruption for like, everything",0,0
+irc-dev,2015-07-30 13:45:00,1,0.574368,I agree,1,1
+irc-dev,2015-05-03 03:41:00,1,0.449901,"Unfortunately, google leveldb is not very durable in general.",0,0
+irc-dev,2015-01-07 20:39:00,0,-0.752854,"Luke-Jr: after some limit, but if its not even sending anything we can be more agressive.",0,0
+irc-dev,2015-02-03 09:48:00,0,-0.737356,replacing e.g. a race condition by a deadlock is no way forward,0,0
+irc-dev,2015-11-19 20:15:00,1,0.524633,"so i have no reason to believe that the code isn't the spec that i thought made sense, but i haven't reviewed it yet, and the BIP is very out of date. i think it makes sense to make the BIP what we want it to be and have everyone agree on that before we can merge policy",0,0
+irc-dev,2015-05-03 06:42:00,1,0.58642,hulkhogan_: So you would push for a wallet that every single user should be comfortable with?,1,1
+irc-dev,2015-03-05 09:50:00,0,-0.84986,"Luke-Jr: remember, using qt as a base line API for the UI was what we *tried* to do, but versions are drifting apart too much :(",0,0
+irc-dev,2015-02-13 10:48:00,1,0.661653,jonasschnelli: nice!,1,1
+irc-dev,2015-02-05 13:02:00,0,-0.865955,although my issue is prolly due to one of the CA certs missing from debian,0,0
+irc-dev,2015-03-05 19:44:00,0,-0.678763,sipa: Another question re: autoprune. I understand your comment now about nTx>0. But why is BLOCK_VALID_TRANSACTIONS not a sufficient test for that?,0,0
+irc-dev,2015-12-26 10:20:00,0,-0.616108,maaku: this is my softfork idea for block withholding attack: http://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-December/012051.html,1,0
+irc-dev,2015-04-28 12:41:00,0,-0.538534,sipa: how would the 26 xor values lower the risk of accitendialy xor to a blacklisted ip?,1,0
+irc-dev,2015-05-27 21:45:00,0,-0.754644,does anyone know how i can get the raw block from the hash?,0,0
+irc-dev,2015-04-23 07:46:00,0,-0.871016,"Oh, seems I'm wrong. Wiki says ""Transaction is invalid unless occuring in an unexecuted OP_IF branch""",0,0
+irc-dev,2015-02-05 10:26:00,1,0.821414,amaclin_: thanks,1,1
+irc-dev,2015-01-27 16:15:00,1,0.466698,jikoz: yes,1,1
+irc-dev,2015-05-13 00:56:00,0,-0.335851,and relies on hash power security,1,0
+irc-dev,2015-11-01 19:50:00,0,-0.707169,so what you are saying is that either the problem gets fixed soon as a softfork or will likely never be solved ?,1,0
+irc-dev,2015-06-29 11:51:00,0,-0.900456,"ah i see, it's hiding in SendMessages. i hate it when i find something after searching for a while and just asking someone a few seconds before ... sorry about that",0,0
+irc-dev,2015-07-11 15:19:00,1,0.647952,it should aim to be something that is continuous,0,0
+irc-dev,2015-11-14 09:12:00,0,-0.789956,wumpus: it's the best kind of patent: an expired one.,1,0
+irc-dev,2015-02-06 18:43:00,0,-0.762252,"no, curl complains when there's a bad cert",0,0
+irc-dev,2015-12-17 16:40:00,1,0.523747,"benjyz1, That's because support has always been in bitcoin for OP_RETURN",1,0
+irc-dev,2015-11-25 10:34:00,0,-0.297566,"sipa: yes, a schism hardfork even with 100% of the hashpower can be undone by users with another schism hardfork: an ASIC-reset one (changing pow), that's what I'm trying to explain to rusty, gavinandresen and peter R (although that thread was moderated to bitcoin-discuss)",0,0
+irc-dev,2015-11-19 19:50:00,0,-0.752887,"wumpus: no I disagree. the code is ready, the BIP needs to be syncronised. It wont take an hour",0,0
+irc-dev,2015-03-04 16:24:00,1,0.84246,oh cool.,1,1
+irc-dev,2015-11-05 19:26:00,0,-0.458453,"but gmaxwell, the one i proposed is flawed",0,0
+irc-dev,2015-04-28 20:04:00,0,-0.522232,can you paste the link to the last busted travis output? assuming you have it around?,1,0
+irc-dev,2015-12-14 13:23:00,0,-0.575748,i'm more worried about mining hardware,0,0
+irc-dev,2015-08-03 04:09:00,1,0.900542,Luke-Jr: doing that now. thank you,1,1
+irc-dev,2015-04-30 20:37:00,0,-0.586565,"jgarzik: i'm still working through the issues, but i have the list cut down a good bit",1,0
+irc-dev,2015-11-14 10:53:00,0,-0.573069,"Looking up your post, you said that the IBLT stuff requires strict ordering; that isn't so-- though I can see why thinking that would send you down the hashtree parcel path. Thats what gavin wrote up, and it simplifies things; but it's not something that was part of my earlier designs in this space. https://en.bitcoin.it/wiki/User:Gmaxwell/block_network_coding",1,0
+irc-dev,2015-11-12 21:05:00,0,-0.835941,holy crap that's a lot of spam,0,0
+irc-dev,2015-03-13 15:12:00,1,0.87506,"Yeah true, just to get started, My hands are full right now with exchange engine stuffs.",0,0
+irc-dev,2015-01-16 17:37:00,0,-0.608208,lol doh,0,0
+irc-dev,2015-03-27 04:00:00,0,-0.530462,"Luke-Jr: yeah, it is just the wallet, where i care a bit less",0,0
+irc-dev,2015-04-28 10:22:00,1,0.786966,"ThomasV: jgarzik is. some of them hang out in #bitcore as well, i think",1,0
+irc-dev,2015-11-24 08:16:00,1,0.784576,almost :),1,0
+irc-dev,2015-07-14 20:58:00,1,0.82964,okay... sounds good.,1,1
+irc-dev,2015-06-30 05:56:00,0,-0.383288,leakypat: (fixed cost),1,0
+irc-dev,2015-04-15 16:43:00,1,0.628213,define easy?,0,0
+irc-dev,2015-05-06 05:58:00,0,-0.456657,i see api's as making spv obsolete,0,0
+irc-dev,2015-12-16 12:11:00,0,-0.811798,luke-jr: and maybe a more seazoned choice would be like 0.0005 just to weed out crap?,1,0
+irc-dev,2015-01-08 15:06:00,1,0.596295,sdaftuar: you're right,1,0
+irc-dev,2015-04-10 05:30:00,0,-0.567612,but 128 hashes takes a fraction of a millisecond,1,0
+irc-dev,2015-02-27 12:09:00,0,-0.681549,"I suppose it's possible the ""wallet pruning"" stuff might have been otherwise-in-house",1,0
+irc-dev,2015-05-22 17:36:00,0,-0.783489,"BlueMatt: oh, hang on... I think the discourage bit is off...",0,0
+irc-dev,2015-12-16 16:01:00,0,-0.371851,"I'm still reading through, but hopefully quck question for anyone, do pooled miners get allocated staggered nonce numbers? (posted before didn't see an answer though)",1,0
+irc-dev,2015-02-14 11:28:00,1,0.902089,Luke-Jr: thanks :),1,1
+irc-dev,2015-08-03 16:38:00,1,0.840886,"ah, so easy enough to make for anyone who needs one. :)",1,1
+irc-dev,2015-06-11 14:32:00,1,0.485525,but it could be a useful half-way goalpost,1,1
+irc-dev,2015-07-02 15:58:00,1,0.631312,i'll add it,1,0
+irc-dev,2015-04-06 08:47:00,0,-0.526525,but that is the point isn't it?,0,0
+irc-dev,2015-05-22 19:09:00,0,-0.297758,no clue. BIP44 was done by people who disagreed with BIP32's usage.,0,0
+irc-dev,2015-07-30 06:58:00,0,-0.518986,"What would be the bast way to get what peer my node recieves each block from? Is that info logged anywhere, or would I have to make a proxy for it?",1,0
+irc-dev,2015-04-21 12:20:00,1,0.564126,hearn: ty,1,0
+irc-dev,2015-02-27 20:17:00,0,-0.771179,"jtimon: sorry, food just got here. will you be around in 15min or so?",1,0
+irc-dev,2015-04-28 19:28:00,0,-0.6819,michagogo: it doesn't even have the headers,0,0
+irc-dev,2015-08-25 18:53:00,0,-0.781907,"hmm, except idon't see where state is updated in CheckTransaction:(",0,0
+irc-dev,2015-11-12 19:36:00,0,-0.48669,morcos: #6771 seems quite controversial looking at the comments,0,0
+irc-dev,2015-04-07 23:02:00,0,-0.723778,or class in ways that should be trivial for me to solve,0,0
+irc-dev,2015-08-15 10:23:00,0,-0.658008,pindarhk: maybe try in #bitcoin in about 6 hours when people are awake?,1,0
+irc-dev,2015-08-10 18:20:00,0,-0.302193,ajweiss: i once tried to add TXT support... it wasn't easy IIRC.,0,0
+irc-dev,2015-11-19 19:33:00,1,0.45071,"gmaxwell: well as of today, as I understood it, sipa patched it according to his preference.",1,0
+irc-dev,2015-01-07 20:30:00,0,-0.76027,"so it looks to me like if block download timeouts need a backoff, the same would need to happen to ping timeouts",1,0
+irc-dev,2015-01-08 15:10:00,0,-0.546289,"jonasschnelli: hmm, maybe if you try what I did? I didn't use the gitian-building.md, since it didn't exist yet when I set mine up",0,0
+irc-dev,2015-12-08 03:00:00,1,0.605329,it's more OP_RETURN data stuff. and an advertisement sorta.,1,0
+irc-dev,2015-04-30 20:18:00,1,0.563768,make bitcoin_test_clean && make check,1,0
+irc-dev,2015-03-30 14:08:00,0,-0.513108,"lighterweight than that, and you're already running it. it was just a couple of indexes added to the db.",1,0
+irc-dev,2015-07-01 14:00:00,1,0.703697,wumpus: okay... will have a look at it,1,0
+irc-dev,2015-12-14 12:57:00,0,-0.79717,"Or rather, the stxo part might so nevermind, hadn't unified those in my mind.",0,0
+irc-dev,2015-03-19 17:55:00,0,-0.608211,Muis: you already said as much; please pastebin the actual logs,0,0
+irc-dev,2015-01-20 17:14:00,0,-0.724358,but you don't have to convince me that there is no from address :p,0,0
+irc-dev,2015-03-19 23:02:00,0,-0.578839,"actually it are only 2 errors, but at 13 locations",0,0
+irc-dev,2015-03-24 08:25:00,0,-0.866923,what is all this crap,0,0
+irc-dev,2015-11-14 10:14:00,1,0.749921,"jtoomim: Making it safe requires no SPV users accepting small numbers of confirmations. Attempting to magically solve the sybil problems ""somehow"" is to discard decades of failed attempts to invent p2p ecash, which absent the POW solution were all failures. :)",0,0
+irc-dev,2015-07-30 19:07:00,1,0.608549,"jcorgan: well, there could still be the strict consensus rules which just can't be changed (or well, 99.9999% of the nodes will not change it, like the amount of bitcoins etc)",1,0
+irc-dev,2015-01-01 01:23:00,1,0.784576,thanks :),1,1
+irc-dev,2015-08-10 23:12:00,1,0.814135,"gmaxwell, it's certainly not at the top of my list either... but it should be pretty easy to implement",1,0
+irc-dev,2015-12-01 12:04:00,0,-0.689646,no need to repeat yourself,0,0
+irc-dev,2015-06-23 09:39:00,0,-0.35831,"jtimon: wallet should have a custom, well-documented format, instead of a database library",0,0
+irc-dev,2015-05-03 06:16:00,1,0.923926,"it would be interesting if hard drive controllers behave in a way that makes things recover nicer. in the ARM case I've mostly experienced this with, it's just a microSD card",1,0
+irc-dev,2015-04-20 15:48:00,0,-0.309708,so that was reverted...,0,0
+irc-dev,2015-06-17 17:26:00,0,-0.377621,"Could not download some packages, please run gbuild --upgrade",0,0
+irc-dev,2015-07-27 20:54:00,1,0.914923,"Okay, cool, that makes sense.",1,0
+irc-dev,2015-07-01 14:32:00,0,-0.807974,yeah. I don't see how storing/couning block hashed makes sense....,0,0
+irc-dev,2015-05-19 08:10:00,0,-0.442896,wumpus: the file is 121k because it breaks the binaries into small blocks and signs each one,1,0
+irc-dev,2015-12-03 19:26:00,1,0.779318,;-),1,0
+irc-dev,2015-03-24 00:08:00,0,-0.537178,i have stopped following on wallet developments in that area after bip32,1,0
+irc-dev,2015-03-12 13:36:00,0,-0.82566,"Luke-Jr, they're also an absolute pain to manage even when they do ""work""",0,0
+irc-dev,2015-11-07 04:04:00,0,-0.436864,"but which aren't getting evicted, because you don't have an eviction policy set up",0,0
+irc-dev,2015-11-05 12:39:00,0,-0.300039,won't affect any other programs,1,0
+irc-dev,2015-12-03 20:42:00,0,-0.338798,"wumpus: Without understanding more about how feeDeltas are used, I think capping it at 0 could have unintended consequences. People might expect to apply a cost Delta and benefit Delta and them net propertly or something",0,0
+irc-dev,2015-06-22 04:29:00,0,-0.40929,michagogo: and didn't get any assert files for windows,0,0
+irc-dev,2015-05-31 21:38:00,1,0.938247,"rightrudder: Please reconsider having this discussion in here. I strongly recommend you take it to #bitcoin. Everyone who is continuing to be interested in discussing it, is also in #bitcoin.",0,0
+irc-dev,2015-07-14 11:31:00,0,-0.295884,spent zero-conf change won't confirm until its parent does,0,0
+irc-dev,2015-03-13 09:37:00,0,-0.614096,Ah now I got UpdateTip messages.,1,1
+irc-dev,2015-02-13 10:52:00,1,0.713296,assuming he believes me and sipa are real :),1,0
+irc-dev,2015-08-12 19:06:00,0,-0.54958,i suppose this is just the only way to implement Ethereum politically?,1,0
+irc-dev,2015-02-23 06:40:00,1,0.753619,"koobs: really, it'd be helpful if you'd build with --disable-reduced-exports",1,0
+irc-dev,2015-02-06 18:05:00,0,-0.55075,"i've tried using as much stock obsd 5.6 as I can, meaning I have a fairly old gcc etc",1,0
+irc-dev,2015-04-20 19:06:00,0,-0.69183,wumpus: i'm not sure how much the end-compile changes with -g enabled. ignoring the strippable symbols,0,0
+irc-dev,2015-07-27 05:43:00,1,0.549177,every single one is worth $0?,0,0
+irc-dev,2015-12-17 03:51:00,0,-0.797862,"assuming authority is problematic, you should instead talk about least authority",0,0
+irc-dev,2015-01-06 12:43:00,0,-0.756226,hey what is the best faucet for some testnet coins? I am stuck in something and need more testcoins,0,0
+irc-dev,2015-06-21 23:38:00,0,-0.321851,can we stop the test emails now that the ML is live? :/,0,0
+irc-dev,2015-01-09 17:54:00,0,-0.624111,"ah wait, maybe it was the find-unsigned-merges script",0,0
+irc-dev,2015-01-22 00:24:00,0,-0.345102,I'm still not sure what is being argued,0,0
+irc-dev,2015-11-11 08:16:00,0,-0.56905,"matsjj_: it may have been intended that way originally, but shouldn't be conflated that way",1,0
+irc-dev,2015-07-12 09:53:00,0,-0.547238,it was caused by poor implementations of spv mining,0,0
+irc-dev,2015-02-28 23:38:00,0,-0.671535,phantomcircuit: catastrophic? sure. but it's a huge violation of the social contract to change bitcoin such that the consensus rules *in principle* could allow arbitrary rewrites of the UTXO set,0,0
+irc-dev,2015-11-10 10:25:00,0,-0.371228,"The dictionary. Spam isn't illegal, just asocial.",0,0
+irc-dev,2015-01-29 10:12:00,0,-0.320112,"it does work if you do <string notr=""true"">&#160;</string>",0,0
+irc-dev,2015-02-24 05:28:00,1,0.594452,"cfields: wb, added a ref to your pr, clarifying libstdc++ linking whether gcc/clang",1,0
+irc-dev,2015-05-08 20:15:00,1,0.555374,search: exception for that :),1,1
+irc-dev,2015-04-26 21:45:00,0,-0.884413,my gitian build fails,0,0
+irc-dev,2015-06-07 18:38:00,0,-0.653083,Which is a problem for paths that are checked before they exist,0,0
+irc-dev,2015-03-22 20:38:00,1,0.81049,gmaxwell: ok thanks,1,0
+irc-dev,2015-07-17 21:16:00,0,-0.712775,so instead the current hack is to rewrite the envelope so that the message is being sent from the list (ie: the list's domain now controls dkim validation) and to reset the reply-to to the original author,1,0
+irc-dev,2015-04-10 10:15:00,0,-0.807519,and one drawback could be always call keepKey...,0,0
+irc-dev,2015-04-10 10:13:00,0,-0.765095,which takes f*cking 80ms per block,0,0
+irc-dev,2015-01-26 08:46:00,1,0.789418,phantomcircuit: I'm about to submit a pull that adds appropriate debugging to GetBlockFromDisk,1,0
+irc-dev,2015-06-13 14:47:00,0,-0.65406,"i have a question about walletnotify after looking at https://github.com/damonp/walletnotify, it seems walletnotify only calls twice? ""The walletnotify script is hit twice for each transaction; when it first appears on the network (0 confirmations) and after the first confirmation. It is called for both receiving and sending transactions."", if so does it only work for 1 confirmation? can we make this more",1,0
+irc-dev,2015-02-03 07:16:00,0,-0.82739,tcpchecksum is very weak.,0,0
+irc-dev,2015-12-28 17:39:00,1,0.446007,i'm still new to github,0,0
+irc-dev,2015-04-22 08:20:00,0,-0.49179,git pray --veryhard,0,0
+irc-dev,2015-02-27 13:02:00,0,-0.298518,"yeah, I guess there's the tradeoff",0,0
+irc-dev,2015-08-10 18:07:00,0,-0.768379,jonasschnelli: problem is that it gives seeds too much info,1,0
+irc-dev,2015-11-11 06:33:00,1,0.509145,gmaxwell: indeed :),1,0
+irc-dev,2015-04-06 09:30:00,0,-0.606184,yeah im not saying it doesn't im saying the 60 second limit is probably superceded by the loop below it,0,0
+irc-dev,2015-04-25 15:28:00,0,-0.586512,"yes. But it's not used nearly as much in practice with bitcoind as glibc, and devs hardly ever build/run against it. So it'd be a stretch to push out completely untested binaries as ""official""",0,0
+irc-dev,2015-02-21 21:41:00,0,-0.896254,"I would discourage doing something based on x-callback-url.com, as it looks braindead",0,0
+irc-dev,2015-01-04 03:13:00,0,-0.882595,"petertodd: far cheaper systems make censorship very detectable. E.g. just having a ack with a hash of the recieved messages; or protocols like old blue give you ""all communications stop across a line of censorship"". Bitcoin still is not especially interesting there.",0,0
+irc-dev,2015-01-10 23:47:00,0,-0.637186,ACTION whispers: or get a copy from someone else,1,0
+irc-dev,2015-04-20 15:53:00,0,-0.852446,but the underlying issue is that error messages reported on RPC shouldn't be translated,0,0
+irc-dev,2015-03-24 13:07:00,0,-0.885815,fLimitFree seems to be false by default at least,0,0
+irc-dev,2015-03-26 17:24:00,0,-0.699361,"oh, lovely. master doesn't build :<",0,0
+irc-dev,2015-04-06 18:27:00,1,0.0571575,heh. that jajaj spammed a youtube link in privmsg and it is already removed due to ToS violation. :D,1,0
+irc-dev,2015-04-23 09:53:00,1,0.486555,not sure,0,0
+irc-dev,2015-04-24 08:04:00,1,0.691338,"for better or worse the core devs exercise considerable influence here - if enough core devs were to all make a public statement that it was beneficial I think most of the community would go along with it. of course, philosophically this is a little problematic because it implies a certain degree of centralization",0,0
+irc-dev,2015-06-22 20:07:00,0,-0.398884,is the new mailing list live? i did not receive a single mail...,0,0
+irc-dev,2015-04-07 07:35:00,0,-0.854275,"it's a roundabout way of putting pressure on the tests, i realize. but it's also probably the least drama-ridden. once they're the elephant in the room without any way to deflect attention, hopefully something can happen there.",0,0
+irc-dev,2015-06-17 15:30:00,1,0.849805,internal consistency check,1,0
+irc-dev,2015-07-14 17:08:00,1,0.861356,such awesome,1,1
+irc-dev,2015-05-29 18:01:00,1,0.791145,but never tried. just guessing.,1,0
+irc-dev,2015-05-29 14:58:00,1,0.842196,but buys us a lot of time and saves us from bloat,1,1
+irc-dev,2015-03-26 17:51:00,0,-0.81869,Luke-Jr: grr... delete src/bitcoin-config.h,0,0
+irc-dev,2015-11-02 15:52:00,1,0.806549,it's also nicely lock-free in many paths,1,0
+irc-dev,2015-07-17 07:13:00,0,-0.763513,"right. logically, we could just stash qt bins somewhere to avoid rebuilding it. But that's exactly what the cache does already. So any other attempt would likely be equally prone to failure. So i'm not sure it's worth adding another layer like that",0,0
+irc-dev,2015-03-03 08:27:00,1,0.7257,problem solved,1,1
+irc-dev,2015-05-03 04:56:00,0,-0.704462,gmaxwell: yea there's definitely a middle ground to be found here.,1,0
+irc-dev,2015-11-02 04:58:00,0,-0.348751,"(didn't almost, I mean)",0,0
+irc-dev,2015-11-26 21:17:00,0,-0.807053,frankle: I cant be more helpful I am afraid because I dont run OSX,0,0
+irc-dev,2015-04-10 11:17:00,0,-0.857814,sipa sorry I edited some of my comments which were wrong,0,0
+irc-dev,2015-08-11 05:45:00,0,-0.602313,"The wallet is really coupled with the core. Height / conflict calculations, etc.",1,0
+irc-dev,2015-02-22 05:51:00,0,-0.573444,is it always the same block that you get it on?,0,0
+irc-dev,2015-03-11 20:05:00,0,-0.508117,something I could google for?,0,0
+irc-dev,2015-11-07 04:08:00,0,-0.531691,but i'm not seeing that in the command line help,0,0
+irc-dev,2015-05-03 04:55:00,0,-0.288796,"esso: Well thats why I said that ""not shy""; if it was really targeted at the most foolish of ordinary users it would eschew any remotely advanced feature on the slim chance Mr.WorstCaseFool might shoot his foot off. So I think we should abandon some of the least able users in order to satisify the powerusers who will not use software with a paperclip popping up to talk to them every 3 seconds. :)",0,0
+irc-dev,2015-12-17 19:56:00,1,0.90006,"I think it's clear that everyone wants c++11, we should just push ahead with it",1,1
+irc-dev,2015-04-24 07:16:00,1,0.540578,but utxo commitmemts also have huge costs - in terms of complexity for full nodes and efficiently of utxo updates,0,0
+irc-dev,2015-05-08 20:15:00,0,-0.724467,"by the way, even on the ""passing builds"" there are a flurry of exceptions in the log, so its probably a unmaintained build tool thats the issue, not your code",0,0
+irc-dev,2015-02-13 20:11:00,0,-0.683449,"ok, sorry then i try there :)",1,0
+irc-dev,2015-06-11 14:45:00,0,-0.671183,"for that we'd need a relay from bitcoin p2p to GCM, or do our own always-on connections that listen for transactions (ugh)",1,0
+irc-dev,2015-12-21 19:48:00,1,0.849872,"I was thinking that there needs to be more clear metrics that can be analyzed by the public/users, so that we can leverage 'real' consensus as opposed to perception based on individuals.",0,0
+irc-dev,2015-06-03 22:25:00,1,0.563157,but there was no solution logged. Maybe a boost <1_55 issue,0,0
+irc-dev,2015-01-05 22:57:00,1,0.490865,hell i think even when a new tx is accepted into the mempool they're all touched,1,0
+irc-dev,2015-05-26 21:18:00,0,-0.0953548,"hearn: I think thats an unreasonable position. Bitcoin nodes have the chain and are very very effective at serving it, moreso than bittorrent (since they understand the structure)",0,0
