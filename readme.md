@@ -5,7 +5,7 @@ The datasets as collected for each step can be found in the respective folder fo
 News data can be imported by doing import {bloomberg, newsbitcoin, reuters, cnbc, wsj, coindesk} at the start of your Python script. 
 
 The news data set has the following attributes:
-- Title [‘’]
+- Title [‘title’]
 - Author [‘author’][‘name’]
 - Timestamp [‘timestamp’] (datetime object so make sure to import that) 
 - Body [‘articleText’]
