@@ -15,6 +15,12 @@ The news data set has the following attributes:
 You’d access the title of the first article in the Bloomberg set by bloomberg.data[0][‘title’]. 0 Is the article index and will loop over all articles if you specify it.  
 
 ### Datasets REDDIT
+Stored as CSV Files
+- Author ['author']
+- Post text ['summary']
+- Source Reddit ['source']
+- Post score ['score']
+- Timestamp ['timestamp']
 
 ### Datasets IRC
 Stored as CSV files. Following attributes:
@@ -23,6 +29,13 @@ Stored as CSV files. Following attributes:
 -  Author [‘author’]
 
 ### Dataset FORUM
+Stored as CSV 
+- Timestamp (datetime) ['timestamp']
+- Subforum ['source']
+- Author ['author']
+- Comment count ['comment_count']
+- Author activity ['author_activity']
+- Post text ['summary']
 
 ## Annotated datasets
 The training datasets in each subfolder contain all ratings as provided by the Amazon Mechanical Turk service, the average of the ratings, and the majority vote. The training datasets further contains cleaned strings, POS-tagged texts, and texts with stop words removed. 
